@@ -1,0 +1,5094 @@
+{
+  "total_matched": 257,
+  "still_unmatched": 693,
+  "still_ambiguous": 0,
+  "laws": [
+    {
+      "gsn": "10000036",
+      "jusline_name": "Adelsaufhebungsgesetz",
+      "jusline_abbrev": "AdaufG",
+      "catalog_name": "Adelsaufhebungsgesetz",
+      "catalog_abbrev": "",
+      "catalog_typ": "BVG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10000137",
+      "jusline_name": "Generalstabsausbildungsverordnung 2013",
+      "jusline_abbrev": "GAV",
+      "catalog_name": "Behandlung von Grundbuchsstücken im Zuge agrarischer Operationen und Anlegung von Grundbüchern",
+      "catalog_abbrev": "Allg GAV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "10000138",
+      "jusline_name": "Bundes-Verfassungsgesetz",
+      "jusline_abbrev": "B-VG",
+      "catalog_name": "Bundes-Verfassungsgesetz",
+      "catalog_abbrev": "B-VG",
+      "catalog_typ": "BVG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10000380",
+      "jusline_name": "Abgeltung gewisser Ansprüche aus Dienstverhältnissen in der Privatwirtschaft",
+      "jusline_abbrev": "AbgApDG",
+      "catalog_name": "Abgeltung gewisser Ansprüche aus Dienstverhältnissen in der Privatwirtschaft",
+      "catalog_abbrev": "",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10001928",
+      "jusline_name": "Bergbuchverordnung",
+      "jusline_abbrev": "BergBV",
+      "catalog_name": "Bergbuchverordnung",
+      "catalog_abbrev": "BergBV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10001969",
+      "jusline_name": "Anerbengesetz",
+      "jusline_abbrev": "AnerbG",
+      "catalog_name": "Anerbengesetz",
+      "catalog_abbrev": "",
+      "catalog_typ": "BVG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10002070",
+      "jusline_name": "Aktiengesetz",
+      "jusline_abbrev": "AktG",
+      "catalog_name": "Aktiengesetz",
+      "catalog_abbrev": "AktG",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10002237",
+      "jusline_name": "Anzeiger aufgebotener Wertpapiere",
+      "jusline_abbrev": "AWU-V",
+      "catalog_name": "Anzeiger aufgebotener Wertpapiere",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10002489",
+      "jusline_name": "Auslieferungs- und Rechtshilfeverordnung",
+      "jusline_abbrev": "ARHV",
+      "catalog_name": "Auslieferungs- und Rechtshilfeverordnung",
+      "catalog_abbrev": "ARHV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10002890",
+      "jusline_name": "Abbuchungs- und Einziehungs-Verordnung",
+      "jusline_abbrev": "AEV",
+      "catalog_name": "Abbuchungs- und Einziehungs-Verordnung",
+      "catalog_abbrev": "AEV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10002940",
+      "jusline_name": "Disziplinarstatut für Rechtsanwälte und Rechtsanwaltsanwärter",
+      "jusline_abbrev": "DSt",
+      "catalog_name": "Disziplinarstatut für Rechtsanwälte und Rechtsanwaltsanwärter",
+      "catalog_abbrev": "DSt",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10003050",
+      "jusline_name": "Auslandsunterhaltsgesetz 2014",
+      "jusline_abbrev": "AUG 2014",
+      "catalog_name": "Auslandsunterhaltsgesetz - Australien",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 0.6254237288135593
+    },
+    {
+      "gsn": "10003825",
+      "jusline_name": "Abgabenexekutionsordnung",
+      "jusline_abbrev": "AbgEO",
+      "catalog_name": "Abgabenexekutionsordnung",
+      "catalog_abbrev": "AbgEO",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10003917",
+      "jusline_name": "Firmenbuchgesetz",
+      "jusline_abbrev": "FBG",
+      "catalog_name": "Abgabe von land- und forstwirtschaftlichen Betrieben",
+      "catalog_abbrev": "AbglufBG",
+      "catalog_typ": "BG",
+      "score": 0.85
+    },
+    {
+      "gsn": "10005119",
+      "jusline_name": "Abstandnahme von der Verpflichtung zur Abgabe von Voranmeldungen",
+      "jusline_abbrev": "AbstVpAVa",
+      "catalog_name": "Abstandnahme von der Verpflichtung zur Abgabe von Voranmeldungen",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10005224",
+      "jusline_name": "Agrarverfahrensgesetz",
+      "jusline_abbrev": "AgrVG 1950",
+      "catalog_name": "Agrarverfahrensgesetz",
+      "catalog_abbrev": "AgrVG 1950",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10005468",
+      "jusline_name": "Allgemeine Dienstvorschriften für das Bundesheer",
+      "jusline_abbrev": "ADV",
+      "catalog_name": "Allgemeine Dienstvorschriften für das Bundesheer",
+      "catalog_abbrev": "ADV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10005658",
+      "jusline_name": "Dienstzeit-Verordnung für Zivildienstleistende",
+      "jusline_abbrev": "DZ-V",
+      "catalog_name": "Dienstzeit-Verordnung für Zivildienstleistende",
+      "catalog_abbrev": "DZ-V",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10005805",
+      "jusline_name": "Erfolgskontrollen-Verordnung",
+      "jusline_abbrev": "EK-V",
+      "catalog_name": "Bekleidungsverordnung",
+      "catalog_abbrev": "Bek-V",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "10005827",
+      "jusline_name": "Dienstleistungsgebiete-Verordnung",
+      "jusline_abbrev": "DLG-V",
+      "catalog_name": "Dienstleistungsgebiete-Verordnung",
+      "catalog_abbrev": "DLG-V",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10006050",
+      "jusline_name": "Wirtschaftskammergesetz 1998",
+      "jusline_abbrev": "WKG",
+      "catalog_name": "Chemiewaffenverordnung",
+      "catalog_abbrev": "CWKG-VO",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "10006102",
+      "jusline_name": "Anhalteordnung",
+      "jusline_abbrev": "AnhO",
+      "catalog_name": "Anhalteordnung",
+      "catalog_abbrev": "AnhO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10006491",
+      "jusline_name": "Ausübungsvorschriften Hörgeräteakustiker",
+      "jusline_abbrev": "AV-HA",
+      "catalog_name": "Ausübungsvorschriften Hörgeräteakustiker",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10006631",
+      "jusline_name": "Ausübungsvorschriften für Adressenbüros",
+      "jusline_abbrev": "AV-AB",
+      "catalog_name": "Ausübungsvorschriften für Adressenbüros",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10006757",
+      "jusline_name": "Massengutschiff-Verordnung",
+      "jusline_abbrev": "MGSV",
+      "catalog_name": "Allg. Maschinen- und Geräte-Sicherheitsverordnung",
+      "catalog_abbrev": "AMGSV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "10006902",
+      "jusline_name": "Ausübungsvorschriften für Partnervermittler",
+      "jusline_abbrev": "AV-PV",
+      "catalog_name": "Ausübungsvorschriften für Partnervermittler",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10007383",
+      "jusline_name": "Betriebsordnung für den nichtlinienmäßigen Personenverkehr",
+      "jusline_abbrev": "BO 1994",
+      "catalog_name": "Betriebsordnung für den nichtlinienmäßigen Personenverkehr",
+      "catalog_abbrev": "BO 1994",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10007507",
+      "jusline_name": "Akkreditierungsgebührenverordnung",
+      "jusline_abbrev": "AkkGebV",
+      "catalog_name": "Akkreditierungsgebührenverordnung",
+      "catalog_abbrev": "AkkGebV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10007513",
+      "jusline_name": "Sonn- und Feiertags-Betriebszeitengesetz",
+      "jusline_abbrev": "BZG",
+      "catalog_name": "Berufszugangs-Verordnung Güterkraftverkehr",
+      "catalog_abbrev": "BZGü-VO",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "10007742",
+      "jusline_name": "Allgemeine Lehrabschlußprüfungsordnung",
+      "jusline_abbrev": "AllgLAPO",
+      "catalog_name": "Allgemeine Lehrabschlußprüfungsordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10007760",
+      "jusline_name": "Ausbilderprüfungsordnung",
+      "jusline_abbrev": "AusbPO",
+      "catalog_name": "Ausbilderprüfungsordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10007808",
+      "jusline_name": "Explosionsschutzverordnung 1996",
+      "jusline_abbrev": "ExSV 1996",
+      "catalog_name": "Explosionsschutzverordnung 1996",
+      "catalog_abbrev": "ExSV 1996",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10007860",
+      "jusline_name": "Bekleidungsfertiger-Ausbildungsordnung",
+      "jusline_abbrev": "BekfAusbVO",
+      "catalog_name": "Bekleidungsfertiger-Ausbildungsordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008014",
+      "jusline_name": "Ausübungsvorschriften für das Reisebürogewerbe",
+      "jusline_abbrev": "AV-RG",
+      "catalog_name": "Ausübungsvorschriften für das Reisebürogewerbe",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008241",
+      "jusline_name": "Fachinspektoren-Zulagenverordnung 1970",
+      "jusline_abbrev": "FZV 1970",
+      "catalog_name": "Fachinspektoren-Zulagenverordnung 1970",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008298",
+      "jusline_name": "Druckluft- und Taucherarbeiten-Verordnung",
+      "jusline_abbrev": "DTAV",
+      "catalog_name": "Druckluft- und Taucherarbeiten-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008332",
+      "jusline_name": "Betriebsrats-Geschäftsordnung 1974",
+      "jusline_abbrev": "BRGO 1974",
+      "catalog_name": "Betriebsrats-Geschäftsordnung 1974",
+      "catalog_abbrev": "BRGO 1974",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008336",
+      "jusline_name": "Betriebsratsfonds-Verordnung 1974",
+      "jusline_abbrev": "BrfVO",
+      "catalog_name": "Betriebsratsfonds-Verordnung 1974",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008364",
+      "jusline_name": "Fahrtenbuchverordnung",
+      "jusline_abbrev": "FahrtbV",
+      "catalog_name": "Fahrtenbuchverordnung",
+      "catalog_abbrev": "FahrtbV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008540",
+      "jusline_name": "Allgemeine Arbeitnehmerschutzverordnung",
+      "jusline_abbrev": "AAV",
+      "catalog_name": "Allgemeine Arbeitnehmerschutzverordnung",
+      "catalog_abbrev": "AAV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008556",
+      "jusline_name": "Arbeitsruhegesetz-Verordnung",
+      "jusline_abbrev": "ARG-VO",
+      "catalog_name": "Arbeitsruhegesetz-Verordnung",
+      "catalog_abbrev": "ARG-VO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008576",
+      "jusline_name": "Dienstrechtsverfahrensverordnung 1981",
+      "jusline_abbrev": "DVV 1981",
+      "catalog_name": "Dienstrechtsverfahrensverordnung 1981",
+      "catalog_abbrev": "DVV 1981",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008630",
+      "jusline_name": "Exekutionsordnung",
+      "jusline_abbrev": "EO",
+      "catalog_name": "Bundeseinigungsamts-Geschäftsordnung",
+      "catalog_abbrev": "BEA-Geo.",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "10008711",
+      "jusline_name": "Ausländerbeschäftigungsverordnung",
+      "jusline_abbrev": "AusLBVO",
+      "catalog_name": "Ausländerbeschäftigungsverordnung",
+      "catalog_abbrev": "AuslBVO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008904",
+      "jusline_name": "Bauarbeiterschutzverordnung",
+      "jusline_abbrev": "BauV",
+      "catalog_name": "Bauarbeiterschutzverordnung",
+      "catalog_abbrev": "BauV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008919",
+      "jusline_name": "Arbeitsmarktsprengelverordnung",
+      "jusline_abbrev": "AMSprV",
+      "catalog_name": "Arbeitsmarktsprengelverordnung",
+      "catalog_abbrev": "AMSprV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10008994",
+      "jusline_name": "Arbeitsbescheinigungsverordnung",
+      "jusline_abbrev": "ABVO",
+      "catalog_name": "Arbeitsbescheinigungsverordnung",
+      "catalog_abbrev": "ABVO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10009091",
+      "jusline_name": "Arbeiterkammer-Wahlordnung",
+      "jusline_abbrev": "AKWO",
+      "catalog_name": "Arbeiterkammer-Wahlordnung",
+      "catalog_abbrev": "AKWO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10009096",
+      "jusline_name": "Kinder- und Jugendlichen-Beschäftigungsgesetz 1987",
+      "jusline_abbrev": "KJBG",
+      "catalog_name": "Beschäftigungsverbote und -beschränkungen für Jugendliche",
+      "catalog_abbrev": "KJBG-VO",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "10009098",
+      "jusline_name": "Arbeitsstättenverordnung",
+      "jusline_abbrev": "AStV",
+      "catalog_name": "Arbeitsstättenverordnung",
+      "catalog_abbrev": "AStV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10009121",
+      "jusline_name": "Bildschirmarbeitsverordnung",
+      "jusline_abbrev": "BS-V",
+      "catalog_name": "Bildschirmarbeitsverordnung",
+      "catalog_abbrev": "BS-V",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10009213",
+      "jusline_name": "Erhebung von Kirchenbeiträgen in Österreich",
+      "jusline_abbrev": "KirchbG",
+      "catalog_name": "Erhebung von Kirchenbeiträgen in Österreich",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10009399",
+      "jusline_name": "Aufnahms- und Eignungsprüfungen",
+      "jusline_abbrev": "AufEiPVO",
+      "catalog_name": "Aufnahms- und Eignungsprüfungen",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10009486",
+      "jusline_name": "Externistenprüfungsverordnung",
+      "jusline_abbrev": "ExtPruefVO",
+      "catalog_name": "Externistenprüfungsverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10009644",
+      "jusline_name": "Abgeltung von bestimmten Unterrichts- und Erziehungstätigkeiten",
+      "jusline_abbrev": "LehrBG",
+      "catalog_name": "Abgeltung von bestimmten Unterrichts- und Erziehungstätigkeiten",
+      "catalog_abbrev": "",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10010152",
+      "jusline_name": "Wasserstraßengesetz",
+      "jusline_abbrev": "WaStG",
+      "catalog_name": "Akademien-Studiengesetz 1999",
+      "catalog_abbrev": "AStG",
+      "catalog_typ": "BG",
+      "score": 0.85
+    },
+    {
+      "gsn": "10010594",
+      "jusline_name": "Arzneibuchverordnung",
+      "jusline_abbrev": "ArznbVO",
+      "catalog_name": "Arzneibuchverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10010768",
+      "jusline_name": "AIDS-Gesetz 1993",
+      "jusline_abbrev": "AIDSG",
+      "catalog_name": "AIDS-Gesetz 1993",
+      "catalog_abbrev": "",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "10011073",
+      "jusline_name": "Alkoholangabenverordnung",
+      "jusline_abbrev": "AlkangVO",
+      "catalog_name": "Alkoholangabenverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10011170",
+      "jusline_name": "Blutspenderverordnung",
+      "jusline_abbrev": "BSV",
+      "catalog_name": "Blutspenderverordnung",
+      "catalog_abbrev": "BSV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012232",
+      "jusline_name": "Fertigpackungsverordnung",
+      "jusline_abbrev": "FPVO 1993",
+      "catalog_name": "Fertigpackungsverordnung",
+      "catalog_abbrev": "FPVO 1993",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012340",
+      "jusline_name": "Alkomatverordnung",
+      "jusline_abbrev": "AlkomVO",
+      "catalog_name": "Alkomatverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012431",
+      "jusline_name": "Diplom-HTL-Ingenieur-Verordnung",
+      "jusline_abbrev": "DiHIV",
+      "catalog_name": "Diplom-HTL-Ingenieur-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012450",
+      "jusline_name": "Entgeltrichtlinienverordnung 1994",
+      "jusline_abbrev": "ERVO 1994",
+      "catalog_name": "Entgeltrichtlinienverordnung 1994",
+      "catalog_abbrev": "ERVO 1994",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012469",
+      "jusline_name": "Blutsicherheitsgesetz 1999",
+      "jusline_abbrev": "BSG 1999",
+      "catalog_name": "Eignungsprüfungsverordnung-Binnenschifffahrtsgewerbe",
+      "catalog_abbrev": "EPVO-BSG",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "10012725",
+      "jusline_name": "Fahrprüfungsverordnung",
+      "jusline_abbrev": "FSG-PV",
+      "catalog_name": "Fahrprüfungsverordnung",
+      "catalog_abbrev": "FSG-PV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012846",
+      "jusline_name": "Luftverkehrsbetreiberzeugnis-Verordnung 2008",
+      "jusline_abbrev": "AOCV 2008",
+      "catalog_name": "Erteilung des Luftverkehrsbetreiberzeugnisses (AOC)",
+      "catalog_abbrev": "AOCV",
+      "catalog_typ": "V",
+      "score": 0.95
+    },
+    {
+      "gsn": "10012854",
+      "jusline_name": "Druckbehälter-Aufstellungs-Verordnung",
+      "jusline_abbrev": "DBA-VO",
+      "catalog_name": "Druckbehälter-Aufstellungs-Verordnung",
+      "catalog_abbrev": "DBA-VO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012929",
+      "jusline_name": "Amateurfunkgebührenverordnung",
+      "jusline_abbrev": "AFGV",
+      "catalog_name": "Amateurfunkgebührenverordnung",
+      "catalog_abbrev": "AFGV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012930",
+      "jusline_name": "Altfahrzeugeverordnung",
+      "jusline_abbrev": "AFV",
+      "catalog_name": "Amateurfunkverordnung",
+      "catalog_abbrev": "AFV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "10012936",
+      "jusline_name": "Aufgaben-Übertragungs-Verordnung",
+      "jusline_abbrev": "AufgUEVO",
+      "catalog_name": "Entgeltverordnung",
+      "catalog_abbrev": "EVO",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20000181",
+      "jusline_name": "Eisenbahn-ArbeitnehmerInnenschutzverordnung",
+      "jusline_abbrev": "EisbAV",
+      "catalog_name": "Eisenbahn-ArbeitnehmerInnenschutzverordnung",
+      "catalog_abbrev": "EisbAV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20000216",
+      "jusline_name": "Druckgeräteverordnung",
+      "jusline_abbrev": "DGVO",
+      "catalog_name": "Druckgeräteverordnung",
+      "catalog_abbrev": "DGVO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20000230",
+      "jusline_name": "Auflassung eines Abschnittes der B 199 Tannheimer Straße",
+      "jusline_abbrev": "K-VAG 2010",
+      "catalog_name": "Auflassung eines Abschnittes der B 199 Tannheimer Straße",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20000256",
+      "jusline_name": "AlVG-Auszahlungsverordnung",
+      "jusline_abbrev": "AZV",
+      "catalog_name": "AlVG-Auszahlungsverordnung",
+      "catalog_abbrev": "AZV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20000294",
+      "jusline_name": "Beglaubigungsverordnung",
+      "jusline_abbrev": "BeglV",
+      "catalog_name": "Beglaubigungsverordnung",
+      "catalog_abbrev": "BeglV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20000312",
+      "jusline_name": "Datenschutzangemessenheits-Verordnung",
+      "jusline_abbrev": "DS-AV",
+      "catalog_name": "Datenschutzangemessenheits-Verordnung",
+      "catalog_abbrev": "DSAV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20000346",
+      "jusline_name": "Sicherheitsvertrauenspersonen",
+      "jusline_abbrev": "SVP-VO",
+      "catalog_name": "Bundes-Sicherheitsvertrauenspersonen-Verordnung",
+      "catalog_abbrev": "B-SVP-VO",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20000727",
+      "jusline_name": "Arbeitsmittelverordnung",
+      "jusline_abbrev": "AM-VO",
+      "catalog_name": "Arbeitsmittelverordnung",
+      "catalog_abbrev": "AM-VO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20000835",
+      "jusline_name": "Akademischer Grad „Master of Advanced Studies (Public Health – Öffentliches Gesundheitswesen)“",
+      "jusline_abbrev": "S.LVwGG",
+      "catalog_name": "Akademischer Grad „Master of Advanced Studies (Public Health – Öffentliches Gesundheitswesen)“",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20001147",
+      "jusline_name": "Allgemeine Beförderungsbedingungen für den Kraftfahrlinienverkehr",
+      "jusline_abbrev": "Kfl-Bef Bed",
+      "catalog_name": "Allgemeine Beförderungsbedingungen für den Kraftfahrlinienverkehr",
+      "catalog_abbrev": "Kfl-Bef Bed",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20001184",
+      "jusline_name": "Fernsprechentgeltzuschussverordnung",
+      "jusline_abbrev": "FEZVO",
+      "catalog_name": "Fernsprechentgeltzuschussverordnung",
+      "catalog_abbrev": "FEZVO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20001587",
+      "jusline_name": "Apothekerkammer-Wahlordnung 2001",
+      "jusline_abbrev": "Apok-Wo",
+      "catalog_name": "Apothekerkammer-Wahlordnung 2001",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20002002",
+      "jusline_name": "Elektrotechnikverordnung 2002",
+      "jusline_abbrev": "ETV 2002",
+      "catalog_name": "Elektrotechnikverordnung 2002",
+      "catalog_abbrev": "ETV 2002",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20002086",
+      "jusline_name": "Patentanwaltsgesetz",
+      "jusline_abbrev": "PatAwG",
+      "catalog_name": "Abfallwirtschaftsgesetz 2002",
+      "catalog_abbrev": "AWG 2002",
+      "catalog_typ": "BG",
+      "score": 0.85
+    },
+    {
+      "gsn": "20002188",
+      "jusline_name": "Binnenschifffahrts- und Bodenseefunkverordnung",
+      "jusline_abbrev": "BSFV",
+      "catalog_name": "Binnenschifffahrts- und Bodenseefunkverordnung",
+      "catalog_abbrev": "BSFV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20002241",
+      "jusline_name": "Grenzwerteverordnung 2011",
+      "jusline_abbrev": "GKV 2011",
+      "catalog_name": "Bundes-Grenzwerteverordnung",
+      "catalog_abbrev": "B-GKV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20002302",
+      "jusline_name": "Altfahrzeugeverordnung",
+      "jusline_abbrev": "AltfVO",
+      "catalog_name": "Altfahrzeugeverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20002391",
+      "jusline_name": "ADV-Form Verordnung 2002",
+      "jusline_abbrev": "AFV 2002",
+      "catalog_name": "ADV-Form Verordnung 2002",
+      "catalog_abbrev": "AFV 2002",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20002418",
+      "jusline_name": "Augenoptik-Verordnung - Zugangsvoraussetzungen",
+      "jusline_abbrev": "AoV",
+      "catalog_name": "Augenoptik-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 0.6584615384615384
+    },
+    {
+      "gsn": "20002437",
+      "jusline_name": "Berufsfotografen-Verordnung - Zugangsvoraussetzungen",
+      "jusline_abbrev": "BF-V",
+      "catalog_name": "Berufsfotografen-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 0.6805194805194805
+    },
+    {
+      "gsn": "20002568",
+      "jusline_name": "Ausübungsregeln für das Piercen und Tätowieren",
+      "jusline_abbrev": "ARPTV",
+      "catalog_name": "Ausübungsregeln für das Piercen und Tätowieren",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20002669",
+      "jusline_name": "Eisenbahnverordnung 2003",
+      "jusline_abbrev": "EisbVO 2003",
+      "catalog_name": "Eisenbahnverordnung 2003",
+      "catalog_abbrev": "EisbVO 2003",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20002719",
+      "jusline_name": "EU/EWR - Anerkennungsverordnung",
+      "jusline_abbrev": "EE-AV",
+      "catalog_name": "EU/EWR Anerkennungsverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20002742",
+      "jusline_name": "Gewebesicherheitsgesetz",
+      "jusline_abbrev": "GSG",
+      "catalog_name": "Begrenzung von Abwasseremissionen aus der Reinigung von Verbrennungsgas",
+      "catalog_abbrev": "AEV Verbrennungsgas",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20002901",
+      "jusline_name": "Beschaffungscontrolling-Verordnung",
+      "jusline_abbrev": "BC-V",
+      "catalog_name": "Beschaffungscontrolling-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003073",
+      "jusline_name": "Elektronischer Antrag in Verfahren vor der Studienbeihilfenbehörde",
+      "jusline_abbrev": "StudbhbVO",
+      "catalog_name": "Elektronischer Antrag in Verfahren vor der Studienbeihilfenbehörde",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003089",
+      "jusline_name": "Grundlegende Anforderungen an Medizinprodukte",
+      "jusline_abbrev": "MTGV",
+      "catalog_name": "Anforderungen an Medizinprodukte",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 0.7824675324675325
+    },
+    {
+      "gsn": "20003090",
+      "jusline_name": "E-Rechnung-UStV",
+      "jusline_abbrev": "ERUStV",
+      "catalog_name": "E-Rechnung-UStV",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003119",
+      "jusline_name": "Abfallnachweisverordnung 2003",
+      "jusline_abbrev": "AbnVO",
+      "catalog_name": "Abfallnachweisverordnung 2003",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003224",
+      "jusline_name": "Eichstellenverordnung",
+      "jusline_abbrev": "EichstellenV",
+      "catalog_name": "Eichstellenverordnung",
+      "catalog_abbrev": "EichstellenV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003242",
+      "jusline_name": "AMS - Anweisungsverordnung",
+      "jusline_abbrev": "AMSAnwVO",
+      "catalog_name": "AMS – Anweisungsverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 0.784
+    },
+    {
+      "gsn": "20003243",
+      "jusline_name": "Allgemeine Prüfungsordnung",
+      "jusline_abbrev": "APO",
+      "catalog_name": "Allgemeine Prüfungsordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003496",
+      "jusline_name": "Telekom-Richtsatzverordnung 2014",
+      "jusline_abbrev": "TRV 2014",
+      "catalog_name": "BundesbetreuungsV 2004",
+      "catalog_abbrev": "BBetrV 2004",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20003537",
+      "jusline_name": "Elektronische Übermittlung von Daten der Lohnzettel",
+      "jusline_abbrev": "ElUELzVO",
+      "catalog_name": "Elektronische Übermittlung von Daten der Lohnzettel",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003793",
+      "jusline_name": "Abfallbehandlungspflichtenverordnung",
+      "jusline_abbrev": "AbpVO",
+      "catalog_name": "Abfallbehandlungspflichtenverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003826",
+      "jusline_name": "Diensthunde-Ausbildungsverordnung",
+      "jusline_abbrev": "Diensthunde-AusbV",
+      "catalog_name": "Diensthunde-Ausbildungsverordnung",
+      "catalog_abbrev": "Diensthunde-AusbV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003899",
+      "jusline_name": "ADN-Verordnung",
+      "jusline_abbrev": "ADNVO",
+      "catalog_name": "ADN-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20003947",
+      "jusline_name": "Apothekenbetriebsordnung 2005",
+      "jusline_abbrev": "ABO 2005",
+      "catalog_name": "Apothekenbetriebsordnung 2005",
+      "catalog_abbrev": "ABO 2005",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004023",
+      "jusline_name": "Auslandsverwendungsverordnung",
+      "jusline_abbrev": "AuslvV",
+      "catalog_name": "Auslandsverwendungsverordnung",
+      "catalog_abbrev": "AVV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004052",
+      "jusline_name": "Elektroaltgeräteverordnung",
+      "jusline_abbrev": "EAG-VO",
+      "catalog_name": "Elektroaltgeräteverordnung",
+      "catalog_abbrev": "EAG-VO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004109",
+      "jusline_name": "Bohrarbeitenverordnung",
+      "jusline_abbrev": "BohrarbV",
+      "catalog_name": "Bohrarbeitenverordnung",
+      "catalog_abbrev": "BohrarbV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004143",
+      "jusline_name": "Arzneimittel aus menschlichem Blut",
+      "jusline_abbrev": "ABlVO",
+      "catalog_name": "Arzneimittel aus menschlichem Blut",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004150",
+      "jusline_name": "Disziplinarstrafen-Verwendungsverordnung 2005",
+      "jusline_abbrev": "DSVV",
+      "catalog_name": "Disziplinarstrafen-Verwendungsverordnung 2005",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004194",
+      "jusline_name": "Elektronische Übermittlung von Erklärungen gemäß § 4 NeuFöG",
+      "jusline_abbrev": "ElUEBetrVO",
+      "catalog_name": "Elektronische Übermittlung von Erklärungen gemäß § 4 NeuFöG",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004195",
+      "jusline_name": "Adressregisterverordnung",
+      "jusline_abbrev": "AdrRegV",
+      "catalog_name": "Adressregisterverordnung",
+      "catalog_abbrev": "AdrRegV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004229",
+      "jusline_name": "Abschlussprüfungs-Qualitätssicherungsgesetz",
+      "jusline_abbrev": "A-QSG",
+      "catalog_name": "Abschlussprüfungs-Qualitätssicherungsgesetz",
+      "catalog_abbrev": "A-QSG",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004238",
+      "jusline_name": "Elektronische Übermittlung von Kommunalsteuererklärungen",
+      "jusline_abbrev": "ElUEKomStVO",
+      "catalog_name": "Elektronische Übermittlung von Kommunalsteuererklärungen",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004416",
+      "jusline_name": "Barbewegungs-VO",
+      "jusline_abbrev": "BB-VO",
+      "catalog_name": "Bohrlochbergbau-Verordnung",
+      "catalog_abbrev": "BB-V",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20004426",
+      "jusline_name": "Bioethanolgemischverordnung",
+      "jusline_abbrev": "BioVo",
+      "catalog_name": "Bioethanolgemischverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004442",
+      "jusline_name": "Alkoholvortestgeräteverordnung",
+      "jusline_abbrev": "AlkvtgVO",
+      "catalog_name": "Alkoholvortestgeräteverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004467",
+      "jusline_name": "Asylgesetz 2005",
+      "jusline_abbrev": "AsylG 2005",
+      "catalog_name": "Asylgesetz-Durchführungsverordnung 2005",
+      "catalog_abbrev": "AsylG-DV 2005",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20004493",
+      "jusline_name": "Elektronischer Rechtsverkehr",
+      "jusline_abbrev": "ERV 2006",
+      "catalog_name": "Elektronischer Rechtsverkehr",
+      "catalog_abbrev": "ERV 2006",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004697",
+      "jusline_name": "Arbeitskostenstatistik-Verordnung",
+      "jusline_abbrev": "ArbKStVO",
+      "catalog_name": "Arbeitskostenstatistik-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004766",
+      "jusline_name": "EU-Quellensteuer-Zuständigkeitsverordnung",
+      "jusline_abbrev": "EU-QuSt-ZV",
+      "catalog_name": "EU-Quellensteuer-Zuständigkeitsverordnung",
+      "catalog_abbrev": "EU-QuSt-ZV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004773",
+      "jusline_name": "Allgemeine Strahlenschutzverordnung",
+      "jusline_abbrev": "AllgStrSchV",
+      "catalog_name": "Allgemeine Strahlenschutzverordnung",
+      "catalog_abbrev": "AllgStrSchV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20004969",
+      "jusline_name": "Aufnahmsverfahrensverordnung",
+      "jusline_abbrev": "AufnVVO",
+      "catalog_name": "Aufnahmsverfahrensverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005119",
+      "jusline_name": "Bevorrechtung eines Gläubigerschutzverbandes",
+      "jusline_abbrev": "BGlSVV",
+      "catalog_name": "Bevorrechtung eines Gläubigerschutzverbandes",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005202",
+      "jusline_name": "Elektromagnetische Verträglichkeitsverordnung 2006",
+      "jusline_abbrev": "EMVV 2006",
+      "catalog_name": "Elektromagnetische Verträglichkeitsverordnung 2006",
+      "catalog_abbrev": "EMVV 2006",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005222",
+      "jusline_name": "Fachkenntnisnachweis-Verordnung",
+      "jusline_abbrev": "FK-V",
+      "catalog_name": "Fachkenntnisnachweis-Verordnung",
+      "catalog_abbrev": "FK-V",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005251",
+      "jusline_name": "Fachkundebeurteilungsverordnung",
+      "jusline_abbrev": "FachKBV",
+      "catalog_name": "Fachkundebeurteilungsverordnung",
+      "catalog_abbrev": "FachKBV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005437",
+      "jusline_name": "Auslagerungsverordnung",
+      "jusline_abbrev": "AusV",
+      "catalog_name": "Auslagerungsverordnung",
+      "catalog_abbrev": "AusV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005485",
+      "jusline_name": "Bezeichnung bestimmter Arten von Reisedokumenten",
+      "jusline_abbrev": "BARV",
+      "catalog_name": "Bezeichnung bestimmter Arten von Reisedokumenten",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005507",
+      "jusline_name": "Elektronische Einbringung bzw. Übermittlung von Schriftsätzen des Verfassungsgerichtshofes",
+      "jusline_abbrev": "EEVfGH",
+      "catalog_name": "Emissionserklärungsverordnung",
+      "catalog_abbrev": "EEV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20005653",
+      "jusline_name": "Agrardieselverordnung",
+      "jusline_abbrev": "AgrdVO",
+      "catalog_name": "Deponieverordnung 2008",
+      "catalog_abbrev": "DVO 2008",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20005772",
+      "jusline_name": "Eisenbahn-Bauentwurfsverordnung",
+      "jusline_abbrev": "EBEV",
+      "catalog_name": "Eisenbahn-Bauentwurfsverordnung",
+      "catalog_abbrev": "EBEV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005815",
+      "jusline_name": "Batterienverordnung",
+      "jusline_abbrev": "BatVO",
+      "catalog_name": "Batterienverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005904",
+      "jusline_name": "Ausübungsregeln für Fußpflege, Kosmetik und Massage durch Gewerbetreibende",
+      "jusline_abbrev": "ARFKMV",
+      "catalog_name": "Ausübungsregeln für Fußpflege, Kosmetik und Massage durch Gewerbetreibende",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20005915",
+      "jusline_name": "Aufzüge-Sicherheitsverordnung 2008",
+      "jusline_abbrev": "ASV 2008",
+      "catalog_name": "Aufzüge-Sicherheitsverordnung 2008",
+      "catalog_abbrev": "ASV 2008",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006077",
+      "jusline_name": "Eisenbahnbau- und -betriebsverordnung",
+      "jusline_abbrev": "EisbBBV",
+      "catalog_name": "Eisenbahnbau- und -betriebsverordnung",
+      "catalog_abbrev": "EisbBBV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006138",
+      "jusline_name": "Dienstrechtsverfahrens- und Personalstellenverordnung-Justiz",
+      "jusline_abbrev": "DVPV-Justiz",
+      "catalog_name": "Dienstrechtsverfahrens- und Personalstellenverordnung-Justiz",
+      "catalog_abbrev": "DVPV-Justiz",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006223",
+      "jusline_name": "Bergbau-Sprengverordnung",
+      "jusline_abbrev": "BSpV",
+      "catalog_name": "Bergbau-Sprengverordnung",
+      "catalog_abbrev": "BSpV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006272",
+      "jusline_name": "Eigentümerkontrollverordnung 2016 – EKV 2016",
+      "jusline_abbrev": "EKV",
+      "catalog_name": "Eigentümerkontrollverordnung",
+      "catalog_abbrev": "EKV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006278",
+      "jusline_name": "DMF-Verordnung",
+      "jusline_abbrev": "DMFV",
+      "catalog_name": "DMF-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006298",
+      "jusline_name": "Aliquotierungsverordnung 2009",
+      "jusline_abbrev": "AliqVO",
+      "catalog_name": "Aliquotierungsverordnung 2009",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006486",
+      "jusline_name": "Aerosolpackungsverordnung 2009",
+      "jusline_abbrev": "AeroPVO",
+      "catalog_name": "Aerosolpackungsverordnung 2009",
+      "catalog_abbrev": "",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006506",
+      "jusline_name": "Bausparkassengesetzverordnung",
+      "jusline_abbrev": "BSpkV",
+      "catalog_name": "Bausparkassengesetzverordnung",
+      "catalog_abbrev": "BSpkV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006509",
+      "jusline_name": "Einkaufszentren-Warenliste-Verordnung",
+      "jusline_abbrev": "EWV",
+      "catalog_name": "Badegewässerverordnung",
+      "catalog_abbrev": "BGewV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20006654",
+      "jusline_name": "Elektronische Übermittlung von Daten für Zwecke der Bemessung der Beiträge zur Pensionsversicherung der Notare und Notariatskandidaten",
+      "jusline_abbrev": "ElUEPensvNot",
+      "catalog_name": "Elektronische Übermittlung von Daten für Zwecke der Bemessung der Beiträge zur Pensionsversicherung der Notare und Notariatskandidaten",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006655",
+      "jusline_name": "Elektronische Übermittlung von Daten für Zwecke der Ermittlung der Höhe der Witwen(Witwer)pension",
+      "jusline_abbrev": "ElUEWitPens",
+      "catalog_name": "Elektronische Übermittlung von Daten für Zwecke der Ermittlung der Höhe der Witwen(Witwer)pension",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006670",
+      "jusline_name": "Controllingverordnung 2013",
+      "jusline_abbrev": "CV",
+      "catalog_name": "Berufsreifeprüfungscurriculaverordnung",
+      "catalog_abbrev": "BRPCV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20006672",
+      "jusline_name": "Abgabenverwaltungsorganisationsgesetz 2010",
+      "jusline_abbrev": "AVOG 2010",
+      "catalog_name": "Abgabenverwaltungsorganisationsgesetz 2010",
+      "catalog_abbrev": "AVOG 2010",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006728",
+      "jusline_name": "Artenhandel-Unerheblichkeitsverordnung",
+      "jusline_abbrev": "ArtHUV",
+      "catalog_name": "Artenhandel-Unerheblichkeitsverordnung",
+      "catalog_abbrev": "ArtHUV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006761",
+      "jusline_name": "Bergbau-Abfall-Verordnung",
+      "jusline_abbrev": "B-A-V",
+      "catalog_name": "Bergbau-Abfall-Verordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006790",
+      "jusline_name": "Allergeninformationsverordnung",
+      "jusline_abbrev": "AIVO",
+      "catalog_name": "Agrar-Interventionsverordnung 2010",
+      "catalog_abbrev": "AIV 2010",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20006798",
+      "jusline_name": "Verbrechensopfergesetz",
+      "jusline_abbrev": "VOG",
+      "catalog_name": "Durchführung des Abgabenverwaltungsorganisationsgesetzes 2010",
+      "catalog_abbrev": "AVOG 2010 - DV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20006879",
+      "jusline_name": "Einschätzungsverordnung",
+      "jusline_abbrev": "ESchV",
+      "catalog_name": "Einschätzungsverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20006881",
+      "jusline_name": "AMS-Buchhaltungsverordnung",
+      "jusline_abbrev": "AMSBhVO",
+      "catalog_name": "Bundeshaushaltsverordnung 2013",
+      "catalog_abbrev": "BHV 2013",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20006985",
+      "jusline_name": "Anti-Doping-Grenzmengenverordnung 2010",
+      "jusline_abbrev": "ADGMV 2010",
+      "catalog_name": "Anti-Doping-Grenzmengenverordnung 2010",
+      "catalog_abbrev": "ADGMV 2010",
+      "catalog_typ": "V",
+      "score": 0.95
+    },
+    {
+      "gsn": "20007060",
+      "jusline_name": "Agrarkontrollgesetz",
+      "jusline_abbrev": "AgrKG",
+      "catalog_name": "Agrarkontrollgesetz",
+      "catalog_abbrev": "",
+      "catalog_typ": "BG",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007419",
+      "jusline_name": "Düngemittelverordnung 2004",
+      "jusline_abbrev": "DMV",
+      "catalog_name": "Derivate-Meldesystemverordnung 2011",
+      "catalog_abbrev": "DMV 2011",
+      "catalog_typ": "V",
+      "score": 0.95
+    },
+    {
+      "gsn": "20007477",
+      "jusline_name": "Festlegung von Entschädigungen für die Rechtsberatung",
+      "jusline_abbrev": "REntVO",
+      "catalog_name": "Festlegung von Entschädigungen für die Rechtsberatung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007596",
+      "jusline_name": "Datensicherheitsverordnung",
+      "jusline_abbrev": "TKG-DSVO",
+      "catalog_name": "Datensicherheitsverordnung",
+      "catalog_abbrev": "TKG-DSVO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007637",
+      "jusline_name": "Prüfungsrichtlinienverordnung",
+      "jusline_abbrev": "PRLV",
+      "catalog_name": "Bergbau-Sprengmittellagerungsverordnung",
+      "catalog_abbrev": "B-SprLV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20007644",
+      "jusline_name": "Betriebsfunkverordnung",
+      "jusline_abbrev": "BFV",
+      "catalog_name": "Betriebsfunkverordnung",
+      "catalog_abbrev": "BFV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007661",
+      "jusline_name": "Arbeitnehmerschutzverordnung Verkehr 2011",
+      "jusline_abbrev": "AVO Verkehr 2011",
+      "catalog_name": "ArbeitnehmerInnenschutzverordnung Verkehr 2017",
+      "catalog_abbrev": "AVO Verkehr 2017",
+      "catalog_typ": "V",
+      "score": 0.95
+    },
+    {
+      "gsn": "20007663",
+      "jusline_name": "Bundeshaftungsobergrenzenverordnung 2012",
+      "jusline_abbrev": "BHOG 2012",
+      "catalog_name": "Bundeshaftungsobergrenzenverordnung 2012",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007682",
+      "jusline_name": "Elektroschutzverordnung 2012",
+      "jusline_abbrev": "ESV 2012",
+      "catalog_name": "Elektroschutzverordnung 2012",
+      "catalog_abbrev": "ESV 2012",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007719",
+      "jusline_name": "Bundesvermögensverwaltungsverordnung",
+      "jusline_abbrev": "BVV 2013",
+      "catalog_name": "Bundesvermögensverwaltungsverordnung",
+      "catalog_abbrev": "BVV 2013",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007763",
+      "jusline_name": "Auslands-KESt VO 2012",
+      "jusline_abbrev": "AKV",
+      "catalog_name": "Auslands-KESt VO 2012",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007790",
+      "jusline_name": "Bundesvergabeamt-Gebührenverordnung 2012",
+      "jusline_abbrev": "BVA-GebV 2012",
+      "catalog_name": "Bundesvergabeamt-Gebührenverordnung 2012",
+      "catalog_abbrev": "BVA-GebV 2012",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007798",
+      "jusline_name": "Akkreditierungsgesetz 2012",
+      "jusline_abbrev": "AkkG 2012",
+      "catalog_name": "Akkreditierungsgesetz 2012",
+      "catalog_abbrev": "AkkG 2012",
+      "catalog_typ": "BG",
+      "score": 0.95
+    },
+    {
+      "gsn": "20007820",
+      "jusline_name": "Umweltmanagementgesetz",
+      "jusline_abbrev": "UMG",
+      "catalog_name": "Errichtung weiterer nationaler Register für Organisationen, die zu EMAS gleichwertige Umweltmanagementsysteme anwenden",
+      "catalog_abbrev": "UMG-RegV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20007888",
+      "jusline_name": "Eisenbahnkreuzungsverordnung 2012",
+      "jusline_abbrev": "EisbKrV",
+      "catalog_name": "Eisenbahnkreuzungsverordnung 2012",
+      "catalog_abbrev": "EisbKrV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007900",
+      "jusline_name": "Eisenbahnschutzvorschriften",
+      "jusline_abbrev": "EisbSV",
+      "catalog_name": "Eisenbahnschutzvorschriften",
+      "catalog_abbrev": "EisbSV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20007925",
+      "jusline_name": "Datenverarbeitungsregister-Verordnung 2012",
+      "jusline_abbrev": "DVRV 2012",
+      "catalog_name": "Datenverarbeitungsregister-Verordnung 2012",
+      "catalog_abbrev": "DVRV 2012",
+      "catalog_typ": "V",
+      "score": 0.95
+    },
+    {
+      "gsn": "20007967",
+      "jusline_name": "Betriebssonderzulagen-Verordnung 2012",
+      "jusline_abbrev": "BSZ 2012",
+      "catalog_name": "Betriebssonderzulagen-Verordnung 2012",
+      "catalog_abbrev": "BSZ 2012",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008021",
+      "jusline_name": "Abfallnachweisverordnung 2012",
+      "jusline_abbrev": "ANV 2012",
+      "catalog_name": "Abfallnachweisverordnung 2012",
+      "catalog_abbrev": "ANV 2012",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008042",
+      "jusline_name": "Fachkräfteverordnung 2013",
+      "jusline_abbrev": "FKVo",
+      "catalog_name": "Fachkräfteverordnung 2013",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008159",
+      "jusline_name": "Landeslehrer-Controllingverordnung",
+      "jusline_abbrev": "LCV",
+      "catalog_name": "Controllingverordnung 2013",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 0.6054545454545455
+    },
+    {
+      "gsn": "20008234",
+      "jusline_name": "Eisenbahn-Eignungs- und Prüfungsverordnung",
+      "jusline_abbrev": "EisbEPV",
+      "catalog_name": "Eisenbahn-Eignungs- und Prüfungsverordnung",
+      "catalog_abbrev": "EisbEPV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008294",
+      "jusline_name": "Benzindampf-Rückgewinnungs-Verordnung",
+      "jusline_abbrev": "BDRV",
+      "catalog_name": "Benzindampf-Rückgewinnungs-Verordnung",
+      "catalog_abbrev": "BDRV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008397",
+      "jusline_name": "Akkreditierungszeichenverordnung 2013",
+      "jusline_abbrev": "AkkZV 2013",
+      "catalog_name": "Akkreditierungszeichenverordnung 2013",
+      "catalog_abbrev": "AkkZV 2013",
+      "catalog_typ": "V",
+      "score": 0.95
+    },
+    {
+      "gsn": "20008583",
+      "jusline_name": "Arzneispezialitätenregister 2013",
+      "jusline_abbrev": "ASR",
+      "catalog_name": "Arzneispezialitätenregister 2013",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008609",
+      "jusline_name": "Arten – Kennzeichnungsverordnung 2013",
+      "jusline_abbrev": "ArtKV",
+      "catalog_name": "Arten – Kennzeichnungsverordnung 2013",
+      "catalog_abbrev": "ArtKV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008619",
+      "jusline_name": "Eichgebührenverordnung 2013",
+      "jusline_abbrev": "EGVO 2013",
+      "catalog_name": "Eichgebührenverordnung 2013",
+      "catalog_abbrev": "EGVO 2013",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008630",
+      "jusline_name": "Bundeshaftungsobergrenzenverordnung 2014",
+      "jusline_abbrev": "BHOV",
+      "catalog_name": "Bundeshaftungsobergrenzenverordnung 2014",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008716",
+      "jusline_name": "BFA-Verfahrensgesetz",
+      "jusline_abbrev": "BFA-VG",
+      "catalog_name": "BFA-VG – Durchführungsverordnung",
+      "catalog_abbrev": "BFA-VG – DV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20008720",
+      "jusline_name": "BVwG-elektronischer-Verkehr-Verordnung",
+      "jusline_abbrev": "BVwG-EVV",
+      "catalog_name": "BVwG-elektronischer-Verkehr-Verordnung",
+      "catalog_abbrev": "BVwG-EVV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008722",
+      "jusline_name": "BVwG-Entschädigungsverordnung",
+      "jusline_abbrev": "BVwG-EV",
+      "catalog_name": "BVwG-Entschädigungsverordnung",
+      "catalog_abbrev": "BVwG-EV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008801",
+      "jusline_name": "Betriebssonderzulagen-Verordnung 2014",
+      "jusline_abbrev": "BSZ 2014",
+      "catalog_name": "Betriebssonderzulagen-Verordnung 2014",
+      "catalog_abbrev": "BSZ 2014",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20008830",
+      "jusline_name": "Wirtschaftstreuhandberufsgesetz",
+      "jusline_abbrev": "WTBG",
+      "catalog_name": "Erhöhte Risiken der Geldwäsche oder Terrorismusfinanzierung nach dem Wirtschaftstreuhandberufsgesetz",
+      "catalog_abbrev": "GTV-WTBG 2014",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20008834",
+      "jusline_name": "Bilanzbuchhaltungsgesetz 2014",
+      "jusline_abbrev": "BiBuG 2014",
+      "catalog_name": "Erhöhte Risiken der Geldwäsche oder Terrorismusfinanzierung nach dem Bilanzbuchhaltungsgesetz",
+      "catalog_abbrev": "GTV-BibuG 2014",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20008942",
+      "jusline_name": "Abfindung von Versehrtenrenten aus der Unfallversicherung",
+      "jusline_abbrev": "VersUnfAVO",
+      "catalog_name": "Ausbildungsverordnung 2014",
+      "catalog_abbrev": "AVO 2014",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20008971",
+      "jusline_name": "Bundeshaftungsobergrenzenverordnung 2015",
+      "jusline_abbrev": "BHOVO",
+      "catalog_name": "Bundeshaftungsobergrenzenverordnung 2015",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009052",
+      "jusline_name": "Amtshilfe-Durchführungsgesetz",
+      "jusline_abbrev": "ADG",
+      "catalog_name": "Anti-Doping-Grenzmengenverordnung 2015",
+      "catalog_abbrev": "ADGMV 2015",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20009055",
+      "jusline_name": "Bauproduktenotifizierungsgesetz 2013",
+      "jusline_abbrev": "BPNG 2013",
+      "catalog_name": "Bauproduktenotifizierungsgebührenverordnung 2015",
+      "catalog_abbrev": "BPNGV 2015",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20009063",
+      "jusline_name": "Direktzahlungs-Verordnung 2015",
+      "jusline_abbrev": "DZV",
+      "catalog_name": "Direktzahlungs-Verordnung 2015",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009068",
+      "jusline_name": "Behinderteneinstellungsgesetz",
+      "jusline_abbrev": "BEinstG",
+      "catalog_name": "8. Behinderteneinstellungsgesetz-Novelle",
+      "catalog_abbrev": "8. BEinstGNov",
+      "catalog_typ": "BG",
+      "score": 0.85
+    },
+    {
+      "gsn": "20009084",
+      "jusline_name": "Energiegroßhandelsdatenverordnung",
+      "jusline_abbrev": "EGHD-VO",
+      "catalog_name": "Energiegroßhandelsdatenverordnung",
+      "catalog_abbrev": "EGHD-VO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009093",
+      "jusline_name": "Bankensanierungsplanverordnung",
+      "jusline_abbrev": "BaSaPV",
+      "catalog_name": "Bankensanierungsplanverordnung",
+      "catalog_abbrev": "BaSaPV",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009125",
+      "jusline_name": "Fahrverbotskalender 2015",
+      "jusline_abbrev": "FVK 2015",
+      "catalog_name": "Fahrverbotskalender 2015",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009157",
+      "jusline_name": "ELGA-Verordnung 2015",
+      "jusline_abbrev": "ELGA-VO 2015",
+      "catalog_name": "ELGA-Verordnung 2015",
+      "catalog_abbrev": "ELGA-VO 2015",
+      "catalog_typ": "V",
+      "score": 0.95
+    },
+    {
+      "gsn": "20009186",
+      "jusline_name": "Ausgleichsordnung",
+      "jusline_abbrev": "AO",
+      "catalog_name": "Ärztinnen-/Ärzte-Ausbildungsordnung 2015",
+      "catalog_abbrev": "ÄAO 2015",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20009280",
+      "jusline_name": "Alternative Investmentfonds Manager-Gesetz",
+      "jusline_abbrev": "AIFMG",
+      "catalog_name": "Alternative Investmentfonds Manager-Meldeverordnung",
+      "catalog_abbrev": "AIFM-MV",
+      "catalog_typ": "V",
+      "score": 0.6782795698924731
+    },
+    {
+      "gsn": "20009304",
+      "jusline_name": "Bergbau-Unfallverordnung 2015",
+      "jusline_abbrev": "Bergbau-UV 2015",
+      "catalog_name": "Bergbau-Unfallverordnung 2015",
+      "catalog_abbrev": "Bergbau-UV 2015",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009310",
+      "jusline_name": "Allgemeines Sozialversicherungsgesetz",
+      "jusline_abbrev": "ASVG",
+      "catalog_name": "Aufzüge-Sicherheitsverordnung 2015",
+      "catalog_abbrev": "ASV 2015",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20009379",
+      "jusline_name": "Geldwäscherei- und Terrorismusfinanzierungsrisiko-Verordnung 2016",
+      "jusline_abbrev": "GTV 2016",
+      "catalog_name": "Erhöhte Risiken der Geldwäsche oder Terrorismusfinanzierung nach der Gewerbeordnung 1994",
+      "catalog_abbrev": "2. GTV-GewO 2015",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20009411",
+      "jusline_name": "Symbole-Gesetz",
+      "jusline_abbrev": "SG",
+      "catalog_name": "Durchführung des Gemeinsamen Meldestandard-Gesetzes",
+      "catalog_abbrev": "GMSG-DV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20009635",
+      "jusline_name": "Kesselgesetz",
+      "jusline_abbrev": "KG",
+      "catalog_name": "Festlegung von Gruppen sozial oder wirtschaftlich besonders schutzbedürftiger Verbraucher",
+      "catalog_abbrev": "VZKG-V",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20009737",
+      "jusline_name": "Dienstgradzulage",
+      "jusline_abbrev": "DGZ-V",
+      "catalog_name": "Dienstgradzulage",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009766",
+      "jusline_name": "Bilanzgliederungsverordnung",
+      "jusline_abbrev": "BGVO",
+      "catalog_name": "Bilanzgliederungsverordnung",
+      "catalog_abbrev": "BGVO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009807",
+      "jusline_name": "Beikostverordnung",
+      "jusline_abbrev": "BKVO",
+      "catalog_name": "Errichtung einer Blutkommission",
+      "catalog_abbrev": "BKVO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009872",
+      "jusline_name": "Fertigteilhausbau-Ausbildungsordnung",
+      "jusline_abbrev": "FTHAO",
+      "catalog_name": "Fertigteilhausbau-Ausbildungsordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20009930",
+      "jusline_name": "Getreidemüller-Verordnung - Zugangsvoraussetzungen",
+      "jusline_abbrev": "GM-V",
+      "catalog_name": "Bestimmung der bestätigten Bruttomasse (Verified Gross Mass – VGM) von Seefrachtcontainern",
+      "catalog_abbrev": "VGM-V",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010029",
+      "jusline_name": "Kapitalverkehrsteuergesetz",
+      "jusline_abbrev": "KVG",
+      "catalog_name": "Betrieb der Kommunikationsplattform Verbrauchergesundheit",
+      "catalog_abbrev": "KVGV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010084",
+      "jusline_name": "Bekämpfung der Verbreitung unzüchtiger Veröffentlichungen",
+      "jusline_abbrev": "ROG 2009",
+      "catalog_name": "Evaluierung und Qualitätssicherung des Österreichischen Brustkrebs-Früherkennungsprogrammes-Verordnung",
+      "catalog_abbrev": "Brustkrebs-Früherkennungsprogramms-Verordnung",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010086",
+      "jusline_name": "Postbus – Bezügeverordnung 2014",
+      "jusline_abbrev": "PBV",
+      "catalog_name": "APAB-Qualitätssicherungsprüfberichtsverordnung",
+      "catalog_abbrev": "APAB-QPBV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010186",
+      "jusline_name": "Notariatstarifgesetz",
+      "jusline_abbrev": "NTG",
+      "catalog_name": "Festlegung der Nutzungsentgelte für die Nutzung des Registers der wirtschaftlichen Eigentümer",
+      "catalog_abbrev": "WiEReG-NutzungsentgelteV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010288",
+      "jusline_name": "Unterhaltsschutzgesetz 1985",
+      "jusline_abbrev": "USchG",
+      "catalog_name": "BVwG-Pauschalgebührenverordnung Vergabe 2018",
+      "catalog_abbrev": "BVwG PauschGebV Vergabe 2018",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010816",
+      "jusline_name": "Brucellose-Verordnung",
+      "jusline_abbrev": "B-Vo",
+      "catalog_name": "Aufteilung des Vermögens der Betriebskrankenkasse der Wiener Verkehrsbetriebe",
+      "catalog_abbrev": "BKKWVB-VO",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010930",
+      "jusline_name": "Sicherheits- und Gesundheitsschutzdokumente",
+      "jusline_abbrev": "DOK-VO",
+      "catalog_name": "Bgld. Sicherheits- und Gesundheitsschutzdokumente in der Land- und Forstwirtschaft",
+      "catalog_abbrev": "Bgld. DOK-VO",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010933",
+      "jusline_name": "Kennzeichnungsverordnung",
+      "jusline_abbrev": "KennV",
+      "catalog_name": "Bgld. Kennzeichnungsverordnung",
+      "catalog_abbrev": "Bgld. KennV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20010940",
+      "jusline_name": "Verordnung Lärm und Vibrationen",
+      "jusline_abbrev": "VOLV",
+      "catalog_name": "Bgld. Schutz der Dienstnehmerinnen und Dienstnehmer in der Land- und Forstwirtschaft vor der Gefährdung durch Lärm und Vibrationen",
+      "catalog_abbrev": "Bgld. VOLV – LuFw",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011115",
+      "jusline_name": "Unterbringungsgesetz",
+      "jusline_abbrev": "UbG",
+      "catalog_name": "2. COVID-19-Justiz-Begleitgesetz",
+      "catalog_abbrev": "2. COVID-19-JuBG",
+      "catalog_typ": "BG",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011138",
+      "jusline_name": "Fahrradverordnung",
+      "jusline_abbrev": "FV",
+      "catalog_name": "COVID-19-Studienförderungsverordnung",
+      "catalog_abbrev": "C-StudFV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011162",
+      "jusline_name": "COVID-19-Maßnahmenverordnung",
+      "jusline_abbrev": "COVID-19 MV",
+      "catalog_name": "COVID-19-Maßnahmenverordnung",
+      "catalog_abbrev": "COVID-19-MV",
+      "catalog_typ": "V",
+      "score": 0.95
+    },
+    {
+      "gsn": "20011179",
+      "jusline_name": "HKW-Anlagen-Verordnung",
+      "jusline_abbrev": "HAV",
+      "catalog_name": "COVID-19-Hochschul-Aufnahmeverordnung",
+      "catalog_abbrev": "C-HAV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011209",
+      "jusline_name": "Gesundheits-Zielsteuerungsgesetz",
+      "jusline_abbrev": "G-ZG",
+      "catalog_name": "Einrichtungen der Vereinten Nationen, denen Rechtshilfe zu leisten ist",
+      "catalog_abbrev": "IG-ZG-V",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011473",
+      "jusline_name": "Versicherungsvermittler - Verordnung",
+      "jusline_abbrev": "VVV",
+      "catalog_name": "COVID-19-Virusvariantenverordnung",
+      "catalog_abbrev": "COVID-19-VvV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011504",
+      "jusline_name": "Verpackungsverordnung 2014",
+      "jusline_abbrev": "VVO",
+      "catalog_name": "3. COVID-19 Ziviljustiz-VO",
+      "catalog_abbrev": "3. COVID-19-ZivVO",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011522",
+      "jusline_name": "Hochschulgesetz 2005",
+      "jusline_abbrev": "HG",
+      "catalog_name": "2. COVID-19-Hochschulgesetz",
+      "catalog_abbrev": "2. C-HG",
+      "catalog_typ": "BG",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011570",
+      "jusline_name": "Bildungsdokumentationsverordnung",
+      "jusline_abbrev": "BDokVO",
+      "catalog_name": "Bildungsdokumentationsverordnung 2021",
+      "catalog_abbrev": "BilDokV 2021",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20011630",
+      "jusline_name": "Informationsverordnung – InfoV",
+      "jusline_abbrev": "InfoV",
+      "catalog_name": "Betriebliche Kollektivversicherung Informationspflichtenverordnung 2021",
+      "catalog_abbrev": "BKV-InfoV 2021",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011673",
+      "jusline_name": "Arzneimittelgesetz",
+      "jusline_abbrev": "AMG",
+      "catalog_name": "Anordnung, an welchem weiteren Standort die Familiengerichtshilfe eingerichtet ist",
+      "catalog_abbrev": "FamGHV-BMJ 2021",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011692",
+      "jusline_name": "Arzneibuchgesetz 2012",
+      "jusline_abbrev": "ABG 2012",
+      "catalog_name": "Elektrizitätsabgabe-Bahnstromverordnung",
+      "catalog_abbrev": "ElAbg-BSV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011696",
+      "jusline_name": "Notariatsordnung",
+      "jusline_abbrev": "NO",
+      "catalog_name": "5. COVID-19-Notmaßnahmenverordnung",
+      "catalog_abbrev": "5. COVID-19-NotMV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011774",
+      "jusline_name": "Aktuarsberichtsverordnung",
+      "jusline_abbrev": "AktuberVO",
+      "catalog_name": "Elektronischer Rechtsverkehr",
+      "catalog_abbrev": "ERV 2021",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20011814",
+      "jusline_name": "COVID-19-Impfpflichtgesetz",
+      "jusline_abbrev": "COVID-19-IG",
+      "catalog_name": "COVID-19-Impfpflichtverordnung",
+      "catalog_abbrev": "COVID-19-IV",
+      "catalog_typ": "V",
+      "score": 0.6000000000000001
+    },
+    {
+      "gsn": "20011911",
+      "jusline_name": "Gasgeräte-Sicherheitsverordnung",
+      "jusline_abbrev": "GSV",
+      "catalog_name": "Entsorgungsverordnung-See 2022",
+      "catalog_abbrev": "EntsorgungsV-See 2022",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012195",
+      "jusline_name": "Inländische Zweitwohnsitze",
+      "jusline_abbrev": "IZV",
+      "catalog_name": "EAG-Investitionszuschüsseverordnung-Strom",
+      "catalog_abbrev": "EAG-IZV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012296",
+      "jusline_name": "Insolvenzordnung",
+      "jusline_abbrev": "IO",
+      "catalog_name": "Absetzbetrag für begünstigte Investitionen im Rahmen der Energiekrisenbeiträge",
+      "catalog_abbrev": "EKB-InvestitionsV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012328",
+      "jusline_name": "Pendlerverordnung",
+      "jusline_abbrev": "PV",
+      "catalog_name": "Dienstrechtsverfahrens- und Personalstellenverordnung – BMLV 2023",
+      "catalog_abbrev": "DVPV BMLV 2023",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012381",
+      "jusline_name": "Archiv-Verordnung",
+      "jusline_abbrev": "A-V",
+      "catalog_name": "BEV-Grundausbildungsverordnung 2023",
+      "catalog_abbrev": "BEV-GA-V 2023",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012502",
+      "jusline_name": "Prüfungsordnung AHS",
+      "jusline_abbrev": "PO",
+      "catalog_name": "EKZ-NPO-Richtlinienverordnung",
+      "catalog_abbrev": "EKZ-NPO-RLV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012573",
+      "jusline_name": "Hochschul-Evaluierungsverordnung",
+      "jusline_abbrev": "HEV",
+      "catalog_name": "Artenhandelsergänzungsverordnung",
+      "catalog_abbrev": "ArtHEV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012583",
+      "jusline_name": "Anhörungsverordnung",
+      "jusline_abbrev": "AV",
+      "catalog_name": "Abfallverbrennungsverordnung 2024",
+      "catalog_abbrev": "AVV 2024",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012687",
+      "jusline_name": "Kompetenzfeststellung durch den VfGH",
+      "jusline_abbrev": "K-BV",
+      "catalog_name": "Blauzungenkrankheit-Bekämpfungsverordnung",
+      "catalog_abbrev": "BZK-BV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012691",
+      "jusline_name": "Ausnahmen vom Wochenend- und Feiertagsfahrverbot",
+      "jusline_abbrev": "AWFVO",
+      "catalog_name": "Ausnahmen vom Wochenend- und Feiertagsfahrverbot",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20012734",
+      "jusline_name": "Aliquotierungsverordnung 2012",
+      "jusline_abbrev": "ALV 2012",
+      "catalog_name": "Familienleistungs-Valorisierungsverordnung 2025",
+      "catalog_abbrev": "FamValVO 2025",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012802",
+      "jusline_name": "Freie Medizinprodukteverordnung",
+      "jusline_abbrev": "FMP-Vo",
+      "catalog_name": "Fernmeldepauschaleverordnung",
+      "catalog_abbrev": "FMP-VO",
+      "catalog_typ": "V",
+      "score": 1.0
+    },
+    {
+      "gsn": "20012918",
+      "jusline_name": "Einreihungsverordnung",
+      "jusline_abbrev": "EV",
+      "catalog_name": "2. Geschäftsverteilung der Volksanwaltschaft, ihrer Kommissionen und des Menschenrechtsbeirates",
+      "catalog_abbrev": "2. GeV der VA 2025",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012954",
+      "jusline_name": "Dorotheumsgesetz",
+      "jusline_abbrev": "DG",
+      "catalog_name": "Daten-Governance-Benennungsverordnung",
+      "catalog_abbrev": "DGBenV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012967",
+      "jusline_name": "Beschäftigung von Ausländern im Winterfremdenverkehr",
+      "jusline_abbrev": "GV",
+      "catalog_name": "Bedarfsgerechte Nachtkennzeichnung-Gebührenverordnung",
+      "catalog_abbrev": "BNK-GV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20012969",
+      "jusline_name": "Kraftstoffverordnung 2012",
+      "jusline_abbrev": "KV",
+      "catalog_name": "Festlegung der Kriterien zum sozioökonomischen Hintergrund der Schülerinnen und Schüler",
+      "catalog_abbrev": "SchulSKV",
+      "catalog_typ": "V",
+      "score": 0.85
+    },
+    {
+      "gsn": "20013041",
+      "jusline_name": "VwGH-Aufwandersatzverordnung 2014",
+      "jusline_abbrev": "VwGH-AufwErsV",
+      "catalog_name": "Aufwandersatzverordnung",
+      "catalog_abbrev": "",
+      "catalog_typ": "V",
+      "score": 0.6607843137254903
+    },
+    {
+      "gsn": "20013084",
+      "jusline_name": "Gastgewerbe-Verordnung - Zugangsvoraussetzungen",
+      "jusline_abbrev": "GZV",
+      "catalog_name": "Ergänzungszulagenverordnung 2026",
+      "catalog_abbrev": "ErgZV 2026",
+      "catalog_typ": "V",
+      "score": 0.85
+    }
+  ],
+  "unmatched": [
+    {
+      "name": "Abfassung von gerichtlichen Entscheidungen bei Verhinderung des Richters",
+      "abbrev": "EntschVRi"
+    },
+    {
+      "name": "Alkoholabgabegesetz 1973",
+      "abbrev": "AlkAbgG 1973"
+    },
+    {
+      "name": "Alkoholsteuergesetz",
+      "abbrev": "AlkStG"
+    },
+    {
+      "name": "Allgemeines bürgerliches Gesetzbuch",
+      "abbrev": "ABGB"
+    },
+    {
+      "name": "Allgemeines Pensionsgesetz",
+      "abbrev": "APG"
+    },
+    {
+      "name": "Allgemeines Verwaltungsverfahrensgesetz 1991",
+      "abbrev": "AVG"
+    },
+    {
+      "name": "Allgemeines Wasserbautengesetz.",
+      "abbrev": "AllgWaBG"
+    },
+    {
+      "name": "Alternativfinanzierungsgesetz",
+      "abbrev": "AltFG"
+    },
+    {
+      "name": "Altlastensanierungsgesetz",
+      "abbrev": "AltlsanG"
+    },
+    {
+      "name": "Amtshaftungsgesetz",
+      "abbrev": "AHG"
+    },
+    {
+      "name": "Anerkennungsgesetz 2005",
+      "abbrev": "AnerkG"
+    },
+    {
+      "name": "Anfechtungsordnung",
+      "abbrev": "AnfO"
+    },
+    {
+      "name": "Angestelltengesetz",
+      "abbrev": "AngG"
+    },
+    {
+      "name": "Anmeldegesetz",
+      "abbrev": "AnmG"
+    },
+    {
+      "name": "Anstellungserfordernisse für Kindergärtnerinnen, Erzieher",
+      "abbrev": "AnsterfKEG"
+    },
+    {
+      "name": "Anti-Doping-Bundesgesetz 2007",
+      "abbrev": "ADBG 2007"
+    },
+    {
+      "name": "Apothekengesetz",
+      "abbrev": "ApoG"
+    },
+    {
+      "name": "Apothekerkammergesetz 2001",
+      "abbrev": "ApokG"
+    },
+    {
+      "name": "Arbeit-und-Gesundheit-Gesetz",
+      "abbrev": "AGG"
+    },
+    {
+      "name": "Arbeiterkammergesetz 1992",
+      "abbrev": "AKG"
+    },
+    {
+      "name": "ArbeitnehmerInnenschutzgesetz",
+      "abbrev": "ASchG"
+    },
+    {
+      "name": "Arbeits- und Sozialgerichtsgesetz",
+      "abbrev": "ASGG"
+    },
+    {
+      "name": "Arbeitsinspektionsgesetz 1993",
+      "abbrev": "ArbIG"
+    },
+    {
+      "name": "Arbeitslosenversicherungsbeitragsverordnung",
+      "abbrev": "AVBV"
+    },
+    {
+      "name": "Arbeitslosenversicherungsgesetz 1977",
+      "abbrev": "AlVG"
+    },
+    {
+      "name": "Arbeitsmarktförderungsgesetz",
+      "abbrev": "AMFG"
+    },
+    {
+      "name": "Arbeitsmarktservicegesetz",
+      "abbrev": "AMSG"
+    },
+    {
+      "name": "Arbeitsplatz-Sicherungsgesetz 1991",
+      "abbrev": "APSG"
+    },
+    {
+      "name": "Arbeitsverfassungsgesetz",
+      "abbrev": "ArbVG"
+    },
+    {
+      "name": "Arbeitsvertragsrechts-Anpassungsgesetz",
+      "abbrev": "AVRAG"
+    },
+    {
+      "name": "Arbeitszeitgesetz",
+      "abbrev": "AZG"
+    },
+    {
+      "name": "Artenhandelsgesetz 2009",
+      "abbrev": "ArtHG 2009"
+    },
+    {
+      "name": "Arzneiwareneinfuhrgesetz 2010",
+      "abbrev": "AWEG 2010"
+    },
+    {
+      "name": "ASFINAG-Ermächtigungsgesetz 1997",
+      "abbrev": "ASFErmG"
+    },
+    {
+      "name": "ASFINAG-Gesetz",
+      "abbrev": "ASFINAG-G"
+    },
+    {
+      "name": "ASOR-Durchführungsgesetz",
+      "abbrev": "ADFG"
+    },
+    {
+      "name": "Atomhaftungsgesetz 1999",
+      "abbrev": "AtomHG 1999"
+    },
+    {
+      "name": "Auffangorganisationengesetz",
+      "abbrev": "AuffOG"
+    },
+    {
+      "name": "Aufhebung von Strafurteilen und Einstellung von Strafverfahren",
+      "abbrev": "AufEinG"
+    },
+    {
+      "name": "Aufhebungs- und Rehabilitierungsgesetz 2011",
+      "abbrev": "A-RG"
+    },
+    {
+      "name": "Aufwandersatzgesetz",
+      "abbrev": "AufwEG"
+    },
+    {
+      "name": "Ausbildungs- und Berufsprüfungs-Anrechnungsgesetz",
+      "abbrev": "ABAG"
+    },
+    {
+      "name": "Ausbildungsvorbehaltsgesetz",
+      "abbrev": "AusbVbG"
+    },
+    {
+      "name": "Ausfuhrförderungsgesetz",
+      "abbrev": "AusfFG"
+    },
+    {
+      "name": "Aushilfegesetz",
+      "abbrev": "AuhG"
+    },
+    {
+      "name": "Ausländerbeschäftigungsgesetz",
+      "abbrev": "AuslBG"
+    },
+    {
+      "name": "Auslandsanleihengesetz",
+      "abbrev": "AuslAlG"
+    },
+    {
+      "name": "Auslandseinsatzgesetz 2001",
+      "abbrev": "AuslEG 2001"
+    },
+    {
+      "name": "Austria Wirtschaftsservice-Gesetz",
+      "abbrev": "AW-G"
+    },
+    {
+      "name": "Ausübungsvorschriften für Kontaktlinsenoptiker",
+      "abbrev": "AR-KO"
+    },
+    {
+      "name": "Bäderhygienegesetz",
+      "abbrev": "BHygG"
+    },
+    {
+      "name": "Bankpensionsverordnung",
+      "abbrev": "BankPVO"
+    },
+    {
+      "name": "Bankwesengesetz",
+      "abbrev": "BWG"
+    },
+    {
+      "name": "Bauarbeitenkoordinationsgesetz",
+      "abbrev": "BauKG"
+    },
+    {
+      "name": "Bauarbeiter-Schlechtwetterentschädigungsgesetz 1957",
+      "abbrev": "BSchEG"
+    },
+    {
+      "name": "Bauarbeiter-Urlaubs- und Abfertigungsgesetz",
+      "abbrev": "BUAG"
+    },
+    {
+      "name": "Bauproduktegesetz",
+      "abbrev": "BauPG"
+    },
+    {
+      "name": "Baurechtsgesetz",
+      "abbrev": "BauRG"
+    },
+    {
+      "name": "Bausparkassengesetz",
+      "abbrev": "BSpG"
+    },
+    {
+      "name": "Bauträgervertragsgesetz",
+      "abbrev": "BTVG"
+    },
+    {
+      "name": "BAWAG P.S.K.-Sicherungsgesetz",
+      "abbrev": "BPSichG"
+    },
+    {
+      "name": "Beamten-Dienstrechtsgesetz 1979",
+      "abbrev": "BDG 1979"
+    },
+    {
+      "name": "Beamten-Kranken- und Unfallversicherungsgesetz",
+      "abbrev": "B-KUVG"
+    },
+    {
+      "name": "Befähigungsnachweisverordnung 1965",
+      "abbrev": "BefNVO"
+    },
+    {
+      "name": "Beförderung diagnostischer Proben - (RID) - Artikel 5 § 2 CIM",
+      "abbrev": "K-GVG"
+    },
+    {
+      "name": "Bekämpfung der Verbreitung unzüchtiger Veröffentlichungen",
+      "abbrev": "S.LSG"
+    },
+    {
+      "name": "Berufsreifeprüfungsgesetz",
+      "abbrev": "BRPG"
+    },
+    {
+      "name": "Beschußgesetz",
+      "abbrev": "BSchG"
+    },
+    {
+      "name": "Bestattungs-Verordnung – Zugangsvoraussetzungen",
+      "abbrev": "Be-Vo"
+    },
+    {
+      "name": "Betriebliches Mitarbeiter- und Selbständigenvorsorgegesetz",
+      "abbrev": "BMSVG"
+    },
+    {
+      "name": "Betriebspensionsgesetz",
+      "abbrev": "BPG"
+    },
+    {
+      "name": "Bewährungshilfegesetz",
+      "abbrev": "BewHG"
+    },
+    {
+      "name": "Bewertungsgesetz 1955",
+      "abbrev": "BewG 1955"
+    },
+    {
+      "name": "BFW-Gesetz",
+      "abbrev": "BFWG"
+    },
+    {
+      "name": "Bienenseuchengesetz",
+      "abbrev": "BiSG"
+    },
+    {
+      "name": "Biersteuergesetz 2022",
+      "abbrev": "BierStG 2022"
+    },
+    {
+      "name": "Bildungsdokumentationsgesetz",
+      "abbrev": "BdokG"
+    },
+    {
+      "name": "Buchhaltungsagenturgesetz",
+      "abbrev": "BHAG-G"
+    },
+    {
+      "name": "BuLVwG-Eingabengebührverordnung",
+      "abbrev": "BuLVwG-EGebV"
+    },
+    {
+      "name": "Bundes-Bedienstetenschutzgesetz",
+      "abbrev": "B-BSG"
+    },
+    {
+      "name": "Bundes-Behindertengleichstellungsgesetz",
+      "abbrev": "BGStG"
+    },
+    {
+      "name": "Bundes-Ehrenzeichengesetz",
+      "abbrev": "B-EzG"
+    },
+    {
+      "name": "Bundes-Gemeindeaufsichtsgesetz",
+      "abbrev": "B-GAG"
+    },
+    {
+      "name": "Bundes-Jugendförderungsgesetz",
+      "abbrev": "B-JFG"
+    },
+    {
+      "name": "Bundes-Jugendvertretungsgesetz",
+      "abbrev": "B-JVG"
+    },
+    {
+      "name": "Bundes-Kinder- und Jugendhilfegesetz 2013",
+      "abbrev": "B-KJHG 2013"
+    },
+    {
+      "name": "Bundes-Seniorengesetz",
+      "abbrev": "BSenG"
+    },
+    {
+      "name": "Bundes-Sportförderungsgesetz 2013",
+      "abbrev": "BSFG 2013"
+    },
+    {
+      "name": "Bundes-Stiftungs- und Fondsgesetz 2015",
+      "abbrev": "BStFG 2015"
+    },
+    {
+      "name": "Bundes-Umwelthaftungsgesetz",
+      "abbrev": "B-UHG"
+    },
+    {
+      "name": "Bundesabgabenordnung",
+      "abbrev": "BAO"
+    },
+    {
+      "name": "Bundesarchivgesetz",
+      "abbrev": "BarchG"
+    },
+    {
+      "name": "Bundesbahn-Pensionsgesetz",
+      "abbrev": "BB-PG"
+    },
+    {
+      "name": "Bundesbehindertengesetz",
+      "abbrev": "BBG"
+    },
+    {
+      "name": "Bundesfinanzgerichtsgesetz",
+      "abbrev": "BFGG"
+    },
+    {
+      "name": "Bundesfinanzierungsgesetz",
+      "abbrev": "BFinG"
+    },
+    {
+      "name": "Bundesgesetz gegen den unlauteren Wettbewerb",
+      "abbrev": "UWG"
+    },
+    {
+      "name": "Bundesgesetz über die Zusammenarbeit in Finanzstrafsachen mit den Mitgliedstaaten der Europäischen Union",
+      "abbrev": "EU-FinStrZG"
+    },
+    {
+      "name": "Bundesgesetz zur Schaffung einer Abbaueinheit",
+      "abbrev": "GSA"
+    },
+    {
+      "name": "Bundesgesetzblattgesetz",
+      "abbrev": "BGBlG"
+    },
+    {
+      "name": "Bundeshaftungsobergrenzengesetz",
+      "abbrev": "BHOG"
+    },
+    {
+      "name": "Bundesimmobiliengesetz",
+      "abbrev": "BImmoG"
+    },
+    {
+      "name": "Bundeskriminalamt-Gesetz",
+      "abbrev": "BKA-G"
+    },
+    {
+      "name": "Bundeslehrer-Lehrverpflichtungsgesetz",
+      "abbrev": "BLVG"
+    },
+    {
+      "name": "Bundesluftreinhaltegesetz",
+      "abbrev": "BLRG"
+    },
+    {
+      "name": "Bundesministeriengesetz 1986",
+      "abbrev": "BMG"
+    },
+    {
+      "name": "Bundesrechenamtsgesetz",
+      "abbrev": "BreAG"
+    },
+    {
+      "name": "Bundesstatistikgesetz 2000",
+      "abbrev": "BstatG"
+    },
+    {
+      "name": "Bundesstraßen-Mautgesetz 2002",
+      "abbrev": "BStMG"
+    },
+    {
+      "name": "Bundesstraßengesetz 1971",
+      "abbrev": "BStG 1971"
+    },
+    {
+      "name": "Bundestheaterorganisationsgesetz",
+      "abbrev": "BThOG"
+    },
+    {
+      "name": "Bundesverfassungsgesetz über die Begrenzung von Bezügen öffentlicher Funktionäre",
+      "abbrev": "BezBegrBVG"
+    },
+    {
+      "name": "Bundesvergabegesetz 2006",
+      "abbrev": "BVergG 2006"
+    },
+    {
+      "name": "Bundesvergabegesetz 2018",
+      "abbrev": "BVergG 2018"
+    },
+    {
+      "name": "Bundesvergabegesetz Verteidigung und Sicherheit 2012",
+      "abbrev": "BVergGVS 2012"
+    },
+    {
+      "name": "Bundesverwaltungsgerichtsgesetz",
+      "abbrev": "BVwGG"
+    },
+    {
+      "name": "BVG Medienkooperation und Medienförderung",
+      "abbrev": "BVG MedKF-T"
+    },
+    {
+      "name": "Chemikaliengesetz 1996",
+      "abbrev": "ChemG 1996"
+    },
+    {
+      "name": "COVID-19-Maßnahmengesetz",
+      "abbrev": "COVID-19-MG"
+    },
+    {
+      "name": "Dampfkesselbetriebsgesetz",
+      "abbrev": "DKBG"
+    },
+    {
+      "name": "Datenschutz-Grundverordnung",
+      "abbrev": "DSGVO"
+    },
+    {
+      "name": "Datenschutzgesetz",
+      "abbrev": "DSG"
+    },
+    {
+      "name": "Denkmalschutzgesetz",
+      "abbrev": "DMSG"
+    },
+    {
+      "name": "Depotgesetz",
+      "abbrev": "DpG"
+    },
+    {
+      "name": "Devisengesetz 2004",
+      "abbrev": "DevG"
+    },
+    {
+      "name": "Dienstgeberabgabegesetz",
+      "abbrev": "DAG"
+    },
+    {
+      "name": "Dienstleistungsscheckgesetz",
+      "abbrev": "DLSG"
+    },
+    {
+      "name": "Dienstnehmerhaftpflichtgesetz",
+      "abbrev": "DHG"
+    },
+    {
+      "name": "Dipl.-HLFL-Ing.-Verordnung",
+      "abbrev": "DHIV"
+    },
+    {
+      "name": "Doppelbesteuerungsgesetz",
+      "abbrev": "DBG"
+    },
+    {
+      "name": "E-Commerce-Gesetz",
+      "abbrev": "ECG"
+    },
+    {
+      "name": "E-Government-Gesetz",
+      "abbrev": "E-GovG"
+    },
+    {
+      "name": "EG-Amtshilfegesetz",
+      "abbrev": "EG-AHG"
+    },
+    {
+      "name": "Ehegesetz",
+      "abbrev": "EheG"
+    },
+    {
+      "name": "Eidesablegung vor Gericht – Regelung des Verfahrens",
+      "abbrev": "EidG"
+    },
+    {
+      "name": "Einführungsgesetz zu den Verwaltungsverfahrensgesetzen 2008",
+      "abbrev": "EGVG"
+    },
+    {
+      "name": "Eingetragene Partnerschaft-Gesetz",
+      "abbrev": "EPG"
+    },
+    {
+      "name": "Einkommensteuergesetz 1988",
+      "abbrev": "EStG 1988"
+    },
+    {
+      "name": "Einsatzzulagengesetz",
+      "abbrev": "EZG"
+    },
+    {
+      "name": "Eisenbahn- und Kraftfahrzeughaftpflichtgesetz",
+      "abbrev": "EKHG"
+    },
+    {
+      "name": "Eisenbahn-Beförderungs- und Fahrgastrechtegesetz",
+      "abbrev": "EisbBFG"
+    },
+    {
+      "name": "Eisenbahn-Enteignungsentschädigungsgesetz",
+      "abbrev": "EisbEG"
+    },
+    {
+      "name": "Eisenbahngesetz 1957",
+      "abbrev": "EisbG"
+    },
+    {
+      "name": "Elektrotechnikgesetz 1992",
+      "abbrev": "ETG 1992"
+    },
+    {
+      "name": "Emissionsschutzgesetz für Kesselanlagen",
+      "abbrev": "EG-K 2013"
+    },
+    {
+      "name": "Energieausweis-Vorlage-Gesetz 2012",
+      "abbrev": "EAVG 2012"
+    },
+    {
+      "name": "Energieförderungsgesetz 1979",
+      "abbrev": "EnFG"
+    },
+    {
+      "name": "Energielenkungsgesetz 2012",
+      "abbrev": "EnLG 2012"
+    },
+    {
+      "name": "Entgeltfortzahlungsgesetz",
+      "abbrev": "EFZG"
+    },
+    {
+      "name": "Entwicklungshelfergesetz",
+      "abbrev": "EHG"
+    },
+    {
+      "name": "Entwicklungszusammenarbeitsgesetz",
+      "abbrev": "EZA-G"
+    },
+    {
+      "name": "Epidemiegesetz 1950",
+      "abbrev": "EpidemieG"
+    },
+    {
+      "name": "Erbschafts- und Schenkungssteuergesetz 1955",
+      "abbrev": "ErbStG"
+    },
+    {
+      "name": "Erdöl-Bevorratungs- und Meldegesetz 1982",
+      "abbrev": "EOElBMG"
+    },
+    {
+      "name": "Erdölbevorratungs-Förderungsgesetz",
+      "abbrev": "Eoeb-FG"
+    },
+    {
+      "name": "Erdölbevorratungsgesetz 2012",
+      "abbrev": "EBG 2012"
+    },
+    {
+      "name": "Ermittlung der Umlaufgewichteten Durchschnittsrendite für Bundesanleihen",
+      "abbrev": "UDRBG"
+    },
+    {
+      "name": "ERP-Fonds-Gesetz",
+      "abbrev": "ERP-FG"
+    },
+    {
+      "name": "Erwachsenenschutzvereinsgesetz",
+      "abbrev": "ErwSchVG"
+    },
+    {
+      "name": "EU - Polizeikooperationsgesetz",
+      "abbrev": "EU-PolKG"
+    },
+    {
+      "name": "EU-Beamten-Sozialversicherungsgesetz",
+      "abbrev": "EUB-SVG"
+    },
+    {
+      "name": "EU-Informationsgesetz",
+      "abbrev": "EU-InfoG"
+    },
+    {
+      "name": "EU-Mediations-Gesetz",
+      "abbrev": "EU-MediatG"
+    },
+    {
+      "name": "EU-Quellensteuergesetz",
+      "abbrev": "EU-QuStG"
+    },
+    {
+      "name": "EU-Verschmelzungsgesetz",
+      "abbrev": "EU-VerschG"
+    },
+    {
+      "name": "EU-Verwaltungsstrafvollstreckungsgesetz",
+      "abbrev": "EU-VStVG"
+    },
+    {
+      "name": "EU-Vollstreckungsamtshilfegesetz",
+      "abbrev": "EU-VAHG"
+    },
+    {
+      "name": "Eurogesetz",
+      "abbrev": "EuroG"
+    },
+    {
+      "name": "Europa-Wählerevidenzgesetz",
+      "abbrev": "EuWEG"
+    },
+    {
+      "name": "Europäische Menschenrechtskonvention",
+      "abbrev": "EMRK"
+    },
+    {
+      "name": "Europäische-Bürgerinitiative-Gesetz",
+      "abbrev": "EBIG"
+    },
+    {
+      "name": "Europäisches Rechtsanwaltsgesetz",
+      "abbrev": "EIRAG"
+    },
+    {
+      "name": "Europawahlordnung",
+      "abbrev": "EuWO"
+    },
+    {
+      "name": "EWIV-Ausführungsgesetz",
+      "abbrev": "EWIVG"
+    },
+    {
+      "name": "EWR-Psychologengesetz",
+      "abbrev": "EWR-PG"
+    },
+    {
+      "name": "EWR-Psychotherapiegesetz",
+      "abbrev": "EWR-PtpG"
+    },
+    {
+      "name": "Exekutionsordnung - Einführungsgesetz",
+      "abbrev": "EGEO"
+    },
+    {
+      "name": "Exekutivdienst- und Anerkennungszeichengesetz",
+      "abbrev": "EDuAZG"
+    },
+    {
+      "name": "Fachhochschul-Studiengesetz",
+      "abbrev": "FHStG"
+    },
+    {
+      "name": "Familienberatungsförderungsgesetz",
+      "abbrev": "FBFG"
+    },
+    {
+      "name": "Familienlastenausgleichsgesetz 1967",
+      "abbrev": "FLAG"
+    },
+    {
+      "name": "Feiertagsruhegesetz 1957",
+      "abbrev": "FtrG"
+    },
+    {
+      "name": "Fern- und Auswärtsgeschäfte-Gesetz",
+      "abbrev": "FAGG"
+    },
+    {
+      "name": "Fern-Finanzdienstleistungs-Gesetz",
+      "abbrev": "FernFinG"
+    },
+    {
+      "name": "Fernmeldegebührengesetz",
+      "abbrev": "FGG"
+    },
+    {
+      "name": "Fernmeldegebührengesetz - Anlage (Fernmeldegebührenordnung)",
+      "abbrev": "FGO"
+    },
+    {
+      "name": "Fernsprechentgeltzuschussgesetz",
+      "abbrev": "FeZG"
+    },
+    {
+      "name": "Fernwärmeförderungsgesetz",
+      "abbrev": "FWFG"
+    },
+    {
+      "name": "Feuerschutzsteuergesetz 1952",
+      "abbrev": "FSStG"
+    },
+    {
+      "name": "Feuerschutzsteuergesetz-DV",
+      "abbrev": "FSSt-DV"
+    },
+    {
+      "name": "Feuerzeugverordnung",
+      "abbrev": "FeuerzeugV"
+    },
+    {
+      "name": "Filmförderungsgesetz",
+      "abbrev": "FifoeG"
+    },
+    {
+      "name": "Finanz-Verfassungsgesetz 1948",
+      "abbrev": "F-VG 1948"
+    },
+    {
+      "name": "Finanzkonglomerategesetz",
+      "abbrev": "FKG"
+    },
+    {
+      "name": "Finanzmarkt-Geldwäschegesetz",
+      "abbrev": "FGG 2019"
+    },
+    {
+      "name": "Finanzmarktaufsichtsbehördengesetz",
+      "abbrev": "FMABG"
+    },
+    {
+      "name": "FinanzOnline-Erklärungsverordnung",
+      "abbrev": "FOnErklV"
+    },
+    {
+      "name": "Finanzprokuraturgesetz",
+      "abbrev": "ProkG"
+    },
+    {
+      "name": "Finanzsicherheiten-Gesetz",
+      "abbrev": "FinSG"
+    },
+    {
+      "name": "Finanzstrafgesetz",
+      "abbrev": "FinStrG"
+    },
+    {
+      "name": "Finanzverwaltungsgerichtsbarkeitsgesetz 2012",
+      "abbrev": "FVwGG 2012"
+    },
+    {
+      "name": "Firmenbuch-Rückerfassungs-Verordnung",
+      "abbrev": "FBR-V"
+    },
+    {
+      "name": "Flugabgabegesetz",
+      "abbrev": "FlugAbgG"
+    },
+    {
+      "name": "Flughafen-Bodenabfertigungsgesetz",
+      "abbrev": "FBAG"
+    },
+    {
+      "name": "Flugsicherungsan- und Abfluggebührenverordnung 2008 - FSAG-V 2008",
+      "abbrev": "FSAG-V 2008"
+    },
+    {
+      "name": "Flugsicherungsstreckengebührengesetz 1984",
+      "abbrev": "FSSGG"
+    },
+    {
+      "name": "Flurverfassungs-Grundsatzgesetz 1951",
+      "abbrev": "FlurVgG"
+    },
+    {
+      "name": "Flüssiggas-Tankstellen-Verordnung 2010",
+      "abbrev": "FGTV 2010"
+    },
+    {
+      "name": "Forderungs- und Schadenersatzverordnung",
+      "abbrev": "FSVO"
+    },
+    {
+      "name": "Forschungs- und Technologieförderungsgesetz",
+      "abbrev": "FTFG"
+    },
+    {
+      "name": "Forschungsorganisationsgesetz",
+      "abbrev": "FOG"
+    },
+    {
+      "name": "Forstgesetz 1975",
+      "abbrev": "ForstG"
+    },
+    {
+      "name": "Forstliche Kennzeichnungsverordnung",
+      "abbrev": "FKV"
+    },
+    {
+      "name": "Forstliche Staatsprüfungsverordnung",
+      "abbrev": "FSPV"
+    },
+    {
+      "name": "Fortpflanzungsmedizin-Verordnung",
+      "abbrev": "FMedV"
+    },
+    {
+      "name": "FreisprecheinrichtungsV",
+      "abbrev": "FSEV"
+    },
+    {
+      "name": "Fremdenpolizeigesetz 2005",
+      "abbrev": "FPG"
+    },
+    {
+      "name": "Fremdenpolizeigesetz-Durchführungsverordnung",
+      "abbrev": "FPG-DV"
+    },
+    {
+      "name": "Frequenznutzungsverordnung 2005",
+      "abbrev": "FNV 2005"
+    },
+    {
+      "name": "Frequenznutzungsverordnung 2013",
+      "abbrev": "FNV 2013"
+    },
+    {
+      "name": "Führerscheingesetz-Durchführungsverordnung",
+      "abbrev": "FSG-DV"
+    },
+    {
+      "name": "Führerscheingesetz-Gesundheitsverordnung",
+      "abbrev": "FSG-GV"
+    },
+    {
+      "name": "Führung des Staatswappens durch das Bundesheer",
+      "abbrev": "BLBG"
+    },
+    {
+      "name": "Funkanlagen und Telekommunikationsendeinrichtungen",
+      "abbrev": "FTEG"
+    },
+    {
+      "name": "Funker-Zeugnisgesetz 1998",
+      "abbrev": "FZG"
+    },
+    {
+      "name": "Futtermittelgesetz 1999",
+      "abbrev": "FMG 1999"
+    },
+    {
+      "name": "Garantiegesetz 1977",
+      "abbrev": "GarantieG"
+    },
+    {
+      "name": "Gas Monitoring-Verordnung",
+      "abbrev": "GMO-VO"
+    },
+    {
+      "name": "Gaswirtschaftsgesetz 2011",
+      "abbrev": "GWG 2011"
+    },
+    {
+      "name": "GBK/GAW-Gesetz",
+      "abbrev": "GKGAG"
+    },
+    {
+      "name": "Gebäude- und Wohnungsregister-Gesetz",
+      "abbrev": "GWR-Gesetz"
+    },
+    {
+      "name": "Gebrauchsmustergesetz",
+      "abbrev": "GMG"
+    },
+    {
+      "name": "GebührenämterfusionsV",
+      "abbrev": "K-BAV"
+    },
+    {
+      "name": "Gebührenanspruchsgesetz",
+      "abbrev": "GebAG"
+    },
+    {
+      "name": "Gebührengesetz 1957",
+      "abbrev": "GebG"
+    },
+    {
+      "name": "Gefahrgutbeförderungsgesetz",
+      "abbrev": "GGBG"
+    },
+    {
+      "name": "Gefahrgutbeförderungsverordnung",
+      "abbrev": "GGBV"
+    },
+    {
+      "name": "Gehaltsgesetz 1956",
+      "abbrev": "GehG"
+    },
+    {
+      "name": "Gehaltskassengesetz 2002",
+      "abbrev": "GKaG"
+    },
+    {
+      "name": "Gelegenheitsverkehrs-Gesetz 1996",
+      "abbrev": "GelverkG"
+    },
+    {
+      "name": "Genossenschaftsgesetz",
+      "abbrev": "GenG"
+    },
+    {
+      "name": "Genossenschaftsrevisionsgesetz 1997",
+      "abbrev": "GenRevG 1997"
+    },
+    {
+      "name": "Genossenschaftsverschmelzungsgesetz",
+      "abbrev": "GenVG"
+    },
+    {
+      "name": "Gentechnikgesetz",
+      "abbrev": "GTG"
+    },
+    {
+      "name": "Gerichtsgebührengesetz",
+      "abbrev": "GGG"
+    },
+    {
+      "name": "Gerichtskommissärsgesetz",
+      "abbrev": "GKG"
+    },
+    {
+      "name": "Gerichtskommissionstarifgesetz",
+      "abbrev": "GKTG"
+    },
+    {
+      "name": "Gerichtsorganisationsgesetz",
+      "abbrev": "GOG"
+    },
+    {
+      "name": "Geschäftsordnung der Volksanwaltschaft, ihrer Kommissionen und des Menschenrechtsbeirates (GeO der VA 2012)",
+      "abbrev": "GeO der VA 2012"
+    },
+    {
+      "name": "Geschäftsordnung des Verfassungsgerichtshofs über die elektronische Durchführung von Verfahren",
+      "abbrev": "EVGO-VfGH"
+    },
+    {
+      "name": "Geschäftsordnungsgesetz 1975",
+      "abbrev": "GOGNR"
+    },
+    {
+      "name": "Geschworenen- und Schöffengesetz 1990",
+      "abbrev": "GSchG"
+    },
+    {
+      "name": "Gesellschafter-Ausschlussgesetz",
+      "abbrev": "GesAusG"
+    },
+    {
+      "name": "Gesetz über das Bundesamt zur Korruptionsprävention und Korruptionsbekämpfung",
+      "abbrev": "BAK-G"
+    },
+    {
+      "name": "Gesundheits- und Krankenpflegegesetz",
+      "abbrev": "GuKG"
+    },
+    {
+      "name": "Gesundheitsförderungsgesetz",
+      "abbrev": "GfG"
+    },
+    {
+      "name": "Gesundheitstelematikgesetz 2012",
+      "abbrev": "GTelG 2012"
+    },
+    {
+      "name": "Gesundheitstelematikverordnung 2013",
+      "abbrev": "GTelV 2013"
+    },
+    {
+      "name": "Gewebebankenverordnung",
+      "abbrev": "GBVO"
+    },
+    {
+      "name": "Gewerbelegitimationen-Verordnung",
+      "abbrev": "GL-V"
+    },
+    {
+      "name": "Gewerbliches Sozialversicherungsgesetz",
+      "abbrev": "GSVG"
+    },
+    {
+      "name": "Gewinnplan-Verordnung",
+      "abbrev": "GPVVU"
+    },
+    {
+      "name": "Giftliste-Verordnung 2002",
+      "abbrev": "GLVO"
+    },
+    {
+      "name": "Gleichbehandlungsgesetz",
+      "abbrev": "GlBG"
+    },
+    {
+      "name": "Gleichbehandlungskommissions-Geschäftsordnung",
+      "abbrev": "GKGO"
+    },
+    {
+      "name": "Glücksspielgesetz",
+      "abbrev": "GSpG"
+    },
+    {
+      "name": "GmbH-Gesetz",
+      "abbrev": "GmbHG"
+    },
+    {
+      "name": "Grenzkontrollgesetz",
+      "abbrev": "GrekoG"
+    },
+    {
+      "name": "Grunderwerbsteuergesetz 1987",
+      "abbrev": "GrEStG 1987"
+    },
+    {
+      "name": "Grundrechtsbeschwerde-Gesetz",
+      "abbrev": "GRBG"
+    },
+    {
+      "name": "Grundrechtsbeschwerdekosten-Verordnung",
+      "abbrev": "GRBKV"
+    },
+    {
+      "name": "Grundsteuergesetz 1955",
+      "abbrev": "GrStG 1955"
+    },
+    {
+      "name": "Gutsangestelltengesetz",
+      "abbrev": "GAngG"
+    },
+    {
+      "name": "Hafeneinrichtungen-Förderungsgesetz",
+      "abbrev": "HEFG"
+    },
+    {
+      "name": "Haftung der Gastwirte",
+      "abbrev": "GWH"
+    },
+    {
+      "name": "Handelsstatistisches Gesetz 1995",
+      "abbrev": "HStG 1995"
+    },
+    {
+      "name": "Handelsvertretergesetz",
+      "abbrev": "HVertrG 1993"
+    },
+    {
+      "name": "Hausbesorgergesetz",
+      "abbrev": "HbG"
+    },
+    {
+      "name": "Hausgehilfen- und Hausangestelltengesetz",
+      "abbrev": "HgHaG"
+    },
+    {
+      "name": "Hebammengesetz",
+      "abbrev": "HebG"
+    },
+    {
+      "name": "Heeresdisziplinargesetz 2014",
+      "abbrev": "HDG 2014"
+    },
+    {
+      "name": "Heereslenkberechtigungsverordnung 2013",
+      "abbrev": "HLBV 2013"
+    },
+    {
+      "name": "Heimarbeitsgesetz 1960",
+      "abbrev": "HarbG"
+    },
+    {
+      "name": "Heimaufenthaltsgesetz",
+      "abbrev": "HeimAufG"
+    },
+    {
+      "name": "Heizkostenabrechnungsgesetz",
+      "abbrev": "HeizKG"
+    },
+    {
+      "name": "Hinterlegungsgebühren-Verordnung",
+      "abbrev": "HGV"
+    },
+    {
+      "name": "HinweisgeberInnenschutzgesetz",
+      "abbrev": "HSchG"
+    },
+    {
+      "name": "Hochschul-Curriculaverordnung 2013",
+      "abbrev": "HCV 2013"
+    },
+    {
+      "name": "Hochschul-Planungs- und Steuerungsverordnung",
+      "abbrev": "HPSV"
+    },
+    {
+      "name": "Hochschul-Qualitätssicherungsagenturenverordnung 2015",
+      "abbrev": "HQV"
+    },
+    {
+      "name": "Hochschul-Qualitätssicherungsgesetz",
+      "abbrev": "HS-QSG"
+    },
+    {
+      "name": "Hochschul-Studienbeitragsverordnung",
+      "abbrev": "HStBV"
+    },
+    {
+      "name": "Hochschul-Studienberechtigungsgesetz",
+      "abbrev": "HStudBerG"
+    },
+    {
+      "name": "Hochschul-Studienevidenzverordnung",
+      "abbrev": "HSteV"
+    },
+    {
+      "name": "Hochschülerinnen- und Hochschülerschaftsgesetz 2014",
+      "abbrev": "HSG"
+    },
+    {
+      "name": "Hochschülerinnen- und Hochschülerschaftsgesetz 2014",
+      "abbrev": "HSG 2014"
+    },
+    {
+      "name": "Hypothekenbankgesetz",
+      "abbrev": "HypBG"
+    },
+    {
+      "name": "IG-L - Abgasklassen-Kennzeichnungsverordnung",
+      "abbrev": "AbgKlassV"
+    },
+    {
+      "name": "IG-L - Winterstreuverordnung",
+      "abbrev": "IG-LWStrV"
+    },
+    {
+      "name": "IG-L–Messkonzeptverordnung 2012",
+      "abbrev": "IG-L-MKV 2012"
+    },
+    {
+      "name": "IKT-Konsolidierungsgesetz",
+      "abbrev": "IKTKonG"
+    },
+    {
+      "name": "Immissionsschutzgesetz – Luft",
+      "abbrev": "IG-L"
+    },
+    {
+      "name": "Immobilien-Investmentfondsgesetz",
+      "abbrev": "ImmoInvFG"
+    },
+    {
+      "name": "Impfschadengesetz",
+      "abbrev": "ISG"
+    },
+    {
+      "name": "Information der Öffentlichkeit durch Lebensmittelunternehmer im Einzelhandel",
+      "abbrev": "LInfoV"
+    },
+    {
+      "name": "Informationsordnungsgesetz",
+      "abbrev": "InfOG"
+    },
+    {
+      "name": "Informationspflichtenverordnung Versicherungsunternehmen",
+      "abbrev": "InfoV-VU"
+    },
+    {
+      "name": "Informationssicherheitsgesetz",
+      "abbrev": "InfoSiG"
+    },
+    {
+      "name": "Ingenieurgesetz 2006",
+      "abbrev": "IngG 2006"
+    },
+    {
+      "name": "Inländische Zweitwohnsitze",
+      "abbrev": "ZWV"
+    },
+    {
+      "name": "Insolvenz-Entgeltsicherungsgesetz",
+      "abbrev": "IESG"
+    },
+    {
+      "name": "Integrationsvereinbarungs-Verordnung",
+      "abbrev": "IV-V"
+    },
+    {
+      "name": "Internationale Pflanzenschutzkonvention",
+      "abbrev": "VGWG"
+    },
+    {
+      "name": "Internetgestütztes Behördenkooperationssystem IMI",
+      "abbrev": "IMI-Gesetz"
+    },
+    {
+      "name": "INVEKOS-GIS-V 2011",
+      "abbrev": "IGVO 2011"
+    },
+    {
+      "name": "Inverkehrbringen von Gasölen für nicht auf See befindliche Binnenschiffe und Sportboote sowie für mobile Maschinen und Geräte",
+      "abbrev": "IGG"
+    },
+    {
+      "name": "Investitionskostenersatzverordnung",
+      "abbrev": "IKEV"
+    },
+    {
+      "name": "Investitionskostenverordnung",
+      "abbrev": "IKVO"
+    },
+    {
+      "name": "Investmentfondsgesetz 2011",
+      "abbrev": "InvFG 2011"
+    },
+    {
+      "name": "IPR-Gesetz",
+      "abbrev": "IPRG"
+    },
+    {
+      "name": "IUU-Fischerei-Verordnung",
+      "abbrev": "IUUFV"
+    },
+    {
+      "name": "IVF-Fonds-Gesetz",
+      "abbrev": "IVF-FG"
+    },
+    {
+      "name": "IVS-Gesetz",
+      "abbrev": "IVS-G"
+    },
+    {
+      "name": "Jachtzulassungsverordnung",
+      "abbrev": "JachtZulVO"
+    },
+    {
+      "name": "Jahres- und Konzernabschluss-Verordnung",
+      "abbrev": "JKAB-V"
+    },
+    {
+      "name": "Journalistengesetz",
+      "abbrev": "JournG"
+    },
+    {
+      "name": "Jugendausbildungs-Sicherungsgesetz",
+      "abbrev": "JASG"
+    },
+    {
+      "name": "Jugendgerichtsgesetz 1988",
+      "abbrev": "JGG"
+    },
+    {
+      "name": "Jugendwohlfahrtsgesetz 1989",
+      "abbrev": "JWG"
+    },
+    {
+      "name": "Jurisdiktionsnorm",
+      "abbrev": "JN"
+    },
+    {
+      "name": "Justizbetreuungsagentur-Gesetz",
+      "abbrev": "JBA-G"
+    },
+    {
+      "name": "Justizielle Zusammenarbeit in Strafsachen mit den Mitgliedstaaten der Europäischen Union",
+      "abbrev": "EU-JZG"
+    },
+    {
+      "name": "Kälteanlagenverordnung",
+      "abbrev": "KAV"
+    },
+    {
+      "name": "Kanzlei- und Gerichtsvollzieher/innen-Ausbildungsverordnung",
+      "abbrev": "KGAV"
+    },
+    {
+      "name": "Kapitalberichtigungsgesetz",
+      "abbrev": "KberG"
+    },
+    {
+      "name": "Kapitalmarktgesetz",
+      "abbrev": "KMG"
+    },
+    {
+      "name": "Kapitalmarktgesetz 2019",
+      "abbrev": "KMG 2019"
+    },
+    {
+      "name": "Karenzgeldgesetz",
+      "abbrev": "KGG"
+    },
+    {
+      "name": "Karenzurlaubsgeldgesetz",
+      "abbrev": "KUG"
+    },
+    {
+      "name": "Kartellgesetz 2005",
+      "abbrev": "KartG 2005"
+    },
+    {
+      "name": "Katastrophenfondsgesetz 1996",
+      "abbrev": "KatFG 1996"
+    },
+    {
+      "name": "Kautionsschutzgesetz",
+      "abbrev": "KautSG"
+    },
+    {
+      "name": "Kernwaffenversuche in der Atmosphäre, im Weltraum, unter Wasser",
+      "abbrev": "S-GVG 2001"
+    },
+    {
+      "name": "Kinderbetreuungsgeldgesetz",
+      "abbrev": "KBGG"
+    },
+    {
+      "name": "Kleingartengesetz",
+      "abbrev": "KlGG"
+    },
+    {
+      "name": "Klimaschutzgesetz",
+      "abbrev": "KSG"
+    },
+    {
+      "name": "Koalitionsgesetz",
+      "abbrev": "KoalG"
+    },
+    {
+      "name": "Kommunalsteuergesetz 1993",
+      "abbrev": "KommStG 1993"
+    },
+    {
+      "name": "Konsulargesetz",
+      "abbrev": "KonsG"
+    },
+    {
+      "name": "Konsumentenschutzgesetz",
+      "abbrev": "KSchG"
+    },
+    {
+      "name": "Kontrollgerätekartenverordnung",
+      "abbrev": "KonGeV"
+    },
+    {
+      "name": "Kopiergebührenhöheverordnung",
+      "abbrev": "KGHV"
+    },
+    {
+      "name": "Körperschaftsteuergesetz 1988",
+      "abbrev": "KStG 1988"
+    },
+    {
+      "name": "Kraftfahrgesetz 1967",
+      "abbrev": "KFG 1967"
+    },
+    {
+      "name": "Kraftfahrgesetz-Durchführungsverordnung 1967",
+      "abbrev": "KDV 1967"
+    },
+    {
+      "name": "Kraftfahrliniengesetz-Durchführungsverordnung",
+      "abbrev": "KflG-DV"
+    },
+    {
+      "name": "Kraftfahrzeug-Haftpflichtversicherungsgesetz 1994",
+      "abbrev": "KHVG 1994"
+    },
+    {
+      "name": "Kraftfahrzeugsektor-Schutzgesetz",
+      "abbrev": "KraSchG"
+    },
+    {
+      "name": "Kraftfahrzeugsteuergesetz 1992",
+      "abbrev": "KfzStG 1992"
+    },
+    {
+      "name": "Kraftloserklärungsgesetz 1951",
+      "abbrev": "KlkG"
+    },
+    {
+      "name": "Krankenanstalten- und Kuranstaltengesetz",
+      "abbrev": "KAKuG"
+    },
+    {
+      "name": "Krankenanstalten-Arbeitszeitgesetz",
+      "abbrev": "KA-AZG"
+    },
+    {
+      "name": "Kriegsmaterialgesetz",
+      "abbrev": "KMATG"
+    },
+    {
+      "name": "Kunstförderungsgesetz",
+      "abbrev": "KunstFG"
+    },
+    {
+      "name": "Kunsthochschulordnung",
+      "abbrev": "KHSchO"
+    },
+    {
+      "name": "Künstler-Sozialversicherungsfondsgesetz",
+      "abbrev": "K-SVFG"
+    },
+    {
+      "name": "Land- und Baumaschinentechnik-Ausbildungsordnung",
+      "abbrev": "BmtAusbVO"
+    },
+    {
+      "name": "Landarbeitsgesetz 1984",
+      "abbrev": "LAG"
+    },
+    {
+      "name": "Landesvertragslehrpersonengesetz 1966",
+      "abbrev": "LVG"
+    },
+    {
+      "name": "Landpachtgesetz",
+      "abbrev": "LPG"
+    },
+    {
+      "name": "Lebensmittelgesetz 1975",
+      "abbrev": "LMG 1975"
+    },
+    {
+      "name": "Lebensmittelsicherheits- und Verbraucherschutzgesetz",
+      "abbrev": "LMSVG"
+    },
+    {
+      "name": "Liegenschaftsbewertungsgesetz",
+      "abbrev": "LBG"
+    },
+    {
+      "name": "Liegenschaftsteilungsgesetz",
+      "abbrev": "LiegTeilG"
+    },
+    {
+      "name": "LMSVG-Kontrollgebührenverordnung",
+      "abbrev": "LMSVG-KoGeV"
+    },
+    {
+      "name": "Lobbying- und Interessenvertretungs-Transparenz-Gesetz",
+      "abbrev": "LobbyG"
+    },
+    {
+      "name": "Loskennzeichnungsverordnung",
+      "abbrev": "LKVO"
+    },
+    {
+      "name": "Lösungsmittelverordnung 2005",
+      "abbrev": "LMV 2005"
+    },
+    {
+      "name": "Luftfahrtgesetz",
+      "abbrev": "LFG"
+    },
+    {
+      "name": "Luftfahrtsicherheitsgesetz 2011",
+      "abbrev": "LSG 2011"
+    },
+    {
+      "name": "Luftverkehrsregeln 2010",
+      "abbrev": "LVR 2010"
+    },
+    {
+      "name": "Maklergesetz",
+      "abbrev": "MaklerG"
+    },
+    {
+      "name": "Markenschutzgesetz 1970",
+      "abbrev": "MarkenSchG"
+    },
+    {
+      "name": "Marktordnungsgesetz 2007",
+      "abbrev": "MOG 2007"
+    },
+    {
+      "name": "Maß- und Eichgesetz",
+      "abbrev": "MEG"
+    },
+    {
+      "name": "Massage-Verordnung – Zugangsvoraussetzungen",
+      "abbrev": "MVO"
+    },
+    {
+      "name": "Mauttarifverordnung 2014",
+      "abbrev": "MTV 2014"
+    },
+    {
+      "name": "MedAustron GmbH-Gesetz",
+      "abbrev": "MAGG"
+    },
+    {
+      "name": "Mediengesetz",
+      "abbrev": "MedienG"
+    },
+    {
+      "name": "Medizinischer Masseur- und Heilmasseurgesetz",
+      "abbrev": "MMHmG"
+    },
+    {
+      "name": "Medizinproduktebetreiberverordnung",
+      "abbrev": "MPBV"
+    },
+    {
+      "name": "Medizinproduktegesetz",
+      "abbrev": "MPG"
+    },
+    {
+      "name": "Meldegesetz 1991",
+      "abbrev": "MeldeG"
+    },
+    {
+      "name": "Meldegesetz-Durchführungsverordnung",
+      "abbrev": "MeldeV"
+    },
+    {
+      "name": "Meldewesens und Entrichtung der Beiträge zur Krankenversicherung der Leistungsbezieher nach dem Arbeitslosenversicherungsgesetz 1977",
+      "abbrev": "AVIGVerMEB"
+    },
+    {
+      "name": "Messgeräteverordnung",
+      "abbrev": "MGV"
+    },
+    {
+      "name": "Mietrechtsgesetz",
+      "abbrev": "MRG"
+    },
+    {
+      "name": "Militärauszeichnungsgesetz 2002",
+      "abbrev": "MAG 2002"
+    },
+    {
+      "name": "Militärbefugnisgesetz",
+      "abbrev": "MBG"
+    },
+    {
+      "name": "Militärstrafgesetz",
+      "abbrev": "MilStG"
+    },
+    {
+      "name": "Mineralölsteuergesetz",
+      "abbrev": "MinStG"
+    },
+    {
+      "name": "Mißbrauch von Notzeichen",
+      "abbrev": "MNzG"
+    },
+    {
+      "name": "Modellbauer-Meisterprüfungsordnung",
+      "abbrev": "K-MMPO"
+    },
+    {
+      "name": "MTD-Gesetz",
+      "abbrev": "MTD-G"
+    },
+    {
+      "name": "Musterschutzgesetz 1990",
+      "abbrev": "MuSchG"
+    },
+    {
+      "name": "Mutter-Kind-Pass-Verordnung 2002",
+      "abbrev": "MuKiPassV"
+    },
+    {
+      "name": "Mutterschutzgesetz 1979",
+      "abbrev": "MSchG"
+    },
+    {
+      "name": "Nachschulungsverordnung",
+      "abbrev": "FSG-NV"
+    },
+    {
+      "name": "Nachtdienstgeld-Verordnung 2013",
+      "abbrev": "NDG-VO 2013"
+    },
+    {
+      "name": "Nachtschwerarbeitsgesetz",
+      "abbrev": "NSchG"
+    },
+    {
+      "name": "Namensänderungsgesetz",
+      "abbrev": "NAEG"
+    },
+    {
+      "name": "Nationalbankgesetz 1984",
+      "abbrev": "NBG"
+    },
+    {
+      "name": "Nationalrats-Wahlordnung 1992",
+      "abbrev": "NRWO"
+    },
+    {
+      "name": "Natürliche Strahlenquellen-Verordnung",
+      "abbrev": "NatStrV"
+    },
+    {
+      "name": "Neue-Psychoaktive-Substanzen-Gesetz",
+      "abbrev": "NPSG"
+    },
+    {
+      "name": "Niederlassungs- und Aufenthaltsgesetz",
+      "abbrev": "NAG"
+    },
+    {
+      "name": "Niederlassungsverordnung 2013",
+      "abbrev": "NLV 2013"
+    },
+    {
+      "name": "Niederlassungsverordnung 2014",
+      "abbrev": "NLV 2014"
+    },
+    {
+      "name": "Niederlassungsverordnung 2015",
+      "abbrev": "NLV 2015"
+    },
+    {
+      "name": "Niederlassungsverordnung 2011",
+      "abbrev": "NLV 2011"
+    },
+    {
+      "name": "Normengesetz 2016",
+      "abbrev": "NormG 2016"
+    },
+    {
+      "name": "Normverbrauchsabgabegesetz",
+      "abbrev": "NoVAG 1991"
+    },
+    {
+      "name": "Notariatsaktsgesetz",
+      "abbrev": "NotaktsG"
+    },
+    {
+      "name": "Notariatsprüfungsgesetz",
+      "abbrev": "NPG"
+    },
+    {
+      "name": "Notarversicherungsgesetz 1972",
+      "abbrev": "NVG"
+    },
+    {
+      "name": "Notstandshilfeverordnung",
+      "abbrev": "NHV"
+    },
+    {
+      "name": "Notwegegesetz",
+      "abbrev": "NotwegeG"
+    },
+    {
+      "name": "Obstweinverordnung",
+      "abbrev": "OWV"
+    },
+    {
+      "name": "OGH-Gesetz",
+      "abbrev": "OGHG"
+    },
+    {
+      "name": "Ökoprämiengesetz",
+      "abbrev": "OEPG"
+    },
+    {
+      "name": "Opferfürsorgegesetz",
+      "abbrev": "OpferFG"
+    },
+    {
+      "name": "Organhaftpflichtgesetz",
+      "abbrev": "OrgHG"
+    },
+    {
+      "name": "Ozongesetz",
+      "abbrev": "OzonG"
+    },
+    {
+      "name": "Ozonmesskonzeptverordnung",
+      "abbrev": "Ozon-MKV"
+    },
+    {
+      "name": "Parlamentsgebäudesanierungsgesetz",
+      "abbrev": "PGSG"
+    },
+    {
+      "name": "Parteiengesetz 2012",
+      "abbrev": "PartG"
+    },
+    {
+      "name": "Passgesetz 1992",
+      "abbrev": "PassG"
+    },
+    {
+      "name": "Passverordnung",
+      "abbrev": "PassV"
+    },
+    {
+      "name": "Patentgesetz 1970",
+      "abbrev": "PatG"
+    },
+    {
+      "name": "Patientenverfügungs-Gesetz",
+      "abbrev": "PatVG"
+    },
+    {
+      "name": "Pauschalvergütungsverordnung Verwaltungsgerichte",
+      "abbrev": "VwG-PauschVgtV"
+    },
+    {
+      "name": "Pensionsgesetz 1965",
+      "abbrev": "PG 1965"
+    },
+    {
+      "name": "Pensionskassengesetz",
+      "abbrev": "PKG"
+    },
+    {
+      "name": "Pensionskassenvorsorgegesetz",
+      "abbrev": "PKVG"
+    },
+    {
+      "name": "Personalkapazitätscontrollingverordnung 2013",
+      "abbrev": "PersKapCoVo 2013"
+    },
+    {
+      "name": "Personengruppenverordnung 2014",
+      "abbrev": "PersGV 2014"
+    },
+    {
+      "name": "Personenkraftwagen-Verbraucherinformationsgesetz",
+      "abbrev": "Pkw-VIG"
+    },
+    {
+      "name": "Personenstandsdatenverordnung",
+      "abbrev": "PSDV"
+    },
+    {
+      "name": "Personenstandsgesetz-Durchführungsverordnung 2013",
+      "abbrev": "PStG-DV 2013"
+    },
+    {
+      "name": "Personenstandsgesetz 2013",
+      "abbrev": "PStG 2013"
+    },
+    {
+      "name": "Pfandbriefgesetz",
+      "abbrev": "PfandbriefG"
+    },
+    {
+      "name": "Pfandbriefstelle-Gesetz",
+      "abbrev": "PfBrStG"
+    },
+    {
+      "name": "Pflanzenschutzverordnung 2019",
+      "abbrev": "PSV 2019"
+    },
+    {
+      "name": "Pflegefondsgesetz",
+      "abbrev": "PFG"
+    },
+    {
+      "name": "Pflichtablieferungsverordnung",
+      "abbrev": "PflAV"
+    },
+    {
+      "name": "Pflichtschulerhaltungs-Grundsatzgesetz",
+      "abbrev": "PfSG"
+    },
+    {
+      "name": "Planstellenbesetzungsverordnung 2012",
+      "abbrev": "PStBV 2012"
+    },
+    {
+      "name": "Polizeibefugnis-Entschädigungsgesetz",
+      "abbrev": "PolBEG"
+    },
+    {
+      "name": "Polizeikooperationsgesetz",
+      "abbrev": "PolKG"
+    },
+    {
+      "name": "Pornographiegesetz",
+      "abbrev": "PornG"
+    },
+    {
+      "name": "Post-Erhebungs-Verordnung",
+      "abbrev": "PEV"
+    },
+    {
+      "name": "Postmarktgesetz",
+      "abbrev": "PMG"
+    },
+    {
+      "name": "Poststrukturgesetz",
+      "abbrev": "PTSG"
+    },
+    {
+      "name": "Preisauszeichnung für Leistungen und Treibstoffe bei Tankstellen",
+      "abbrev": "TankstpreisauszVO"
+    },
+    {
+      "name": "Preisauszeichnungsgesetz",
+      "abbrev": "PrAG"
+    },
+    {
+      "name": "Preisgesetz 1992",
+      "abbrev": "PreisG"
+    },
+    {
+      "name": "Preistransparenzgesetz",
+      "abbrev": "PTG"
+    },
+    {
+      "name": "Preistransparenzverordnung Treibstoffpreise 2011",
+      "abbrev": "PTTV"
+    },
+    {
+      "name": "Preistransparenzverordnung – Gas und Strom 2012",
+      "abbrev": "PVGuS"
+    },
+    {
+      "name": "Presseförderungsgesetz 2004",
+      "abbrev": "PresseFG 2004"
+    },
+    {
+      "name": "Privatschulgesetz",
+      "abbrev": "PrivSchG"
+    },
+    {
+      "name": "Privatstiftungsgesetz",
+      "abbrev": "PSG"
+    },
+    {
+      "name": "Privatuniversitätengesetz",
+      "abbrev": "PUG"
+    },
+    {
+      "name": "Produkte-Verbrauchsangabenverordnung 2011",
+      "abbrev": "PVV 2011"
+    },
+    {
+      "name": "Produkthaftungsgesetz",
+      "abbrev": "PHG"
+    },
+    {
+      "name": "Produktpirateriegesetz 2004",
+      "abbrev": "PPG 2004"
+    },
+    {
+      "name": "Produktsicherheitsgesetz 2004",
+      "abbrev": "PSG 2004"
+    },
+    {
+      "name": "Prüf- und Begutachtungsstellenverordnung",
+      "abbrev": "PBStV"
+    },
+    {
+      "name": "Psychotherapiegesetz",
+      "abbrev": "PsthG"
+    },
+    {
+      "name": "Publikationsmedienverordnung 2006",
+      "abbrev": "PMV"
+    },
+    {
+      "name": "Publizistikförderungsgesetz 1984",
+      "abbrev": "PubFG"
+    },
+    {
+      "name": "Punzierungsgesetz 2000",
+      "abbrev": "PZG"
+    },
+    {
+      "name": "Pyrotechnikgesetz 2010",
+      "abbrev": "PyroTG 2010"
+    },
+    {
+      "name": "Ratingagenturenvollzugsgesetz",
+      "abbrev": "RAVG"
+    },
+    {
+      "name": "Rechnungshofgesetz 1948",
+      "abbrev": "RHG"
+    },
+    {
+      "name": "Rechnungslegungs-Kontrollgesetz",
+      "abbrev": "RL-KG"
+    },
+    {
+      "name": "Rechnungsparameterverordnung 2012",
+      "abbrev": "RPV 2012"
+    },
+    {
+      "name": "Rechtsanwaltsordnung",
+      "abbrev": "RAO"
+    },
+    {
+      "name": "Rechtsanwaltsprüfungsgesetz",
+      "abbrev": "RAPG"
+    },
+    {
+      "name": "Rechtsanwaltstarifgesetz",
+      "abbrev": "RATG"
+    },
+    {
+      "name": "Rechtspflegergesetz",
+      "abbrev": "RpflG"
+    },
+    {
+      "name": "Rechtspraktikantengesetz",
+      "abbrev": "RPG"
+    },
+    {
+      "name": "Registerzählungsgesetz",
+      "abbrev": "RegZG"
+    },
+    {
+      "name": "Reisebürosicherungsverordnung",
+      "abbrev": "RSV"
+    },
+    {
+      "name": "Religionsunterrichtsgesetz",
+      "abbrev": "RUG"
+    },
+    {
+      "name": "Rezeptpflichtgesetz",
+      "abbrev": "RezPG"
+    },
+    {
+      "name": "Richtwertgesetz",
+      "abbrev": "RichtWG"
+    },
+    {
+      "name": "Risikohinweisverordnung",
+      "abbrev": "RHinV"
+    },
+    {
+      "name": "Rohrleitungsgesetz",
+      "abbrev": "RLG"
+    },
+    {
+      "name": "Rohstoffzuschlags-Verordnung 2012",
+      "abbrev": "RZ-V"
+    },
+    {
+      "name": "Rotwild-Tbc-Verordnung",
+      "abbrev": "RTbcV"
+    },
+    {
+      "name": "Rundfunk- u Fernsehrundfunk-Empfangsanlagen",
+      "abbrev": "RFEV"
+    },
+    {
+      "name": "Rundfunk-Richtsatzverordnung 2014",
+      "abbrev": "RRV 2014"
+    },
+    {
+      "name": "Rundfunkgebührengesetz",
+      "abbrev": "RGG"
+    },
+    {
+      "name": "Sachverständigen- und Dolmetschergesetz",
+      "abbrev": "SDG"
+    },
+    {
+      "name": "Salzmonopolgesetz",
+      "abbrev": "SaMoG"
+    },
+    {
+      "name": "Sanierungs- und Abwicklungsgesetz",
+      "abbrev": "BaSAG"
+    },
+    {
+      "name": "Sanitätergesetz",
+      "abbrev": "SanG"
+    },
+    {
+      "name": "Sanktionengesetz 2010",
+      "abbrev": "SanktG"
+    },
+    {
+      "name": "Schaumweinsteuergesetz 1995",
+      "abbrev": "SWStG"
+    },
+    {
+      "name": "Schiedsgerichtsgebührenverordnung",
+      "abbrev": "SchGVO"
+    },
+    {
+      "name": "Schiedskommissionsverordnung 2014",
+      "abbrev": "SchKV 2014"
+    },
+    {
+      "name": "Schifffahrtsgesetz",
+      "abbrev": "SchFG"
+    },
+    {
+      "name": "Schülerbeihilfengesetz 1983",
+      "abbrev": "SchBeihG"
+    },
+    {
+      "name": "Schülervertretungengesetz",
+      "abbrev": "SchVG"
+    },
+    {
+      "name": "Schulleiter-Zulagenverordnung",
+      "abbrev": "SL-ZV"
+    },
+    {
+      "name": "Schulmilch-Höchstpreis-Verordnung 2014",
+      "abbrev": "SHVO"
+    },
+    {
+      "name": "Schulorganisationsgesetz",
+      "abbrev": "SchOG"
+    },
+    {
+      "name": "Schulpflichtgesetz 1985",
+      "abbrev": "SchPflG"
+    },
+    {
+      "name": "Schulunterrichtsgesetz",
+      "abbrev": "SchUG"
+    },
+    {
+      "name": "Schulunterrichtsgesetz für Berufstätige, Kollegs und Vorbereitungslehrgänge",
+      "abbrev": "SchUG-BKV"
+    },
+    {
+      "name": "Schulzeitgesetz 1985",
+      "abbrev": "SZG"
+    },
+    {
+      "name": "Schutz der Arbeits- und Versammlungsfreiheit - Antiterrorgesetz",
+      "abbrev": "AVAsG"
+    },
+    {
+      "name": "Schutz der Opfer des Krieges",
+      "abbrev": "BauTG"
+    },
+    {
+      "name": "Seeschiffahrts-Erfüllungsgesetz",
+      "abbrev": "SSEG"
+    },
+    {
+      "name": "Seeschifffahrtsgesetz",
+      "abbrev": "SeeSchFG"
+    },
+    {
+      "name": "Seilbahngesetz 2003",
+      "abbrev": "SeilbG 2003"
+    },
+    {
+      "name": "Sicherheits- und Gesundheitsschutzdokumente",
+      "abbrev": "B-DOK-VO"
+    },
+    {
+      "name": "Sicherheitskontrollgesetz 2013",
+      "abbrev": "SKG 2013"
+    },
+    {
+      "name": "Sicherheitsorganisationen-Verordnung",
+      "abbrev": "SO-V"
+    },
+    {
+      "name": "Sicherheitspolizeigesetz",
+      "abbrev": "SPG"
+    },
+    {
+      "name": "Signaturgesetz",
+      "abbrev": "SigG"
+    },
+    {
+      "name": "Sommerzeit - 2012 bis 2016",
+      "abbrev": "SZ-V"
+    },
+    {
+      "name": "Sonderrechnungslegungsgesetz",
+      "abbrev": "SRLG"
+    },
+    {
+      "name": "Sonderunterstützungsgesetz",
+      "abbrev": "SUG"
+    },
+    {
+      "name": "Sortenschutzgesetz 2001",
+      "abbrev": "SortSG"
+    },
+    {
+      "name": "Spaltungsgesetz",
+      "abbrev": "SpaltG"
+    },
+    {
+      "name": "Sparkassengesetz",
+      "abbrev": "SpkG"
+    },
+    {
+      "name": "Sparvereinverordnung",
+      "abbrev": "SpVV"
+    },
+    {
+      "name": "Sperrgebietsgesetz 2002",
+      "abbrev": "SperrGG 2002"
+    },
+    {
+      "name": "Sportbooteverordnung 2015",
+      "abbrev": "SpBV 2015"
+    },
+    {
+      "name": "Sportstättenschutzgesetz",
+      "abbrev": "SStG"
+    },
+    {
+      "name": "Sprengelverordnung für den Strafvollzug",
+      "abbrev": "SVSTV"
+    },
+    {
+      "name": "Staatsanwaltschaftsgesetz",
+      "abbrev": "StAG"
+    },
+    {
+      "name": "Staatsbürgerschaftsgesetz 1985",
+      "abbrev": "StbG"
+    },
+    {
+      "name": "Staatsbürgerschaftsverordnung 1985",
+      "abbrev": "StbV"
+    },
+    {
+      "name": "Staatsgrenze Österreich - Tschechoslowakei (Slowakei)",
+      "abbrev": "K-LSG"
+    },
+    {
+      "name": "Staatsgrenzgesetz",
+      "abbrev": "StGrenzG"
+    },
+    {
+      "name": "Staatsgrundgesetz über die allgemeinen Rechte der Staatsbürger",
+      "abbrev": "StGG"
+    },
+    {
+      "name": "Stabilitätsabgabegesetz",
+      "abbrev": "StabAbgG"
+    },
+    {
+      "name": "Stadterneuerungsgesetz",
+      "abbrev": "StadtErnG"
+    },
+    {
+      "name": "Statistik - Konjunkturelle Entwicklung des Handels",
+      "abbrev": "OSchG"
+    },
+    {
+      "name": "Statut der Europäischen Gesellschaft (Societas Europaea - SE) - SE-Gesetz",
+      "abbrev": "SEG"
+    },
+    {
+      "name": "Stellenbesetzungsgesetz",
+      "abbrev": "Stellbg"
+    },
+    {
+      "name": "Steuerliches Euro-Begleitgesetz",
+      "abbrev": "StEuBG"
+    },
+    {
+      "name": "Stiftungseingangssteuergesetz",
+      "abbrev": "StiftEG"
+    },
+    {
+      "name": "Stipendienstiftungs-Gesetz",
+      "abbrev": "Sts-G"
+    },
+    {
+      "name": "Strafgesetzbuch",
+      "abbrev": "StGB"
+    },
+    {
+      "name": "Strafprozeßordnung 1975",
+      "abbrev": "StPO"
+    },
+    {
+      "name": "Strafrechtliches Entschädigungsgesetz 2005",
+      "abbrev": "StEG 2005"
+    },
+    {
+      "name": "Strafregistergesetz 1968",
+      "abbrev": "StrG"
+    },
+    {
+      "name": "Strafvollzugsgesetz",
+      "abbrev": "StVG"
+    },
+    {
+      "name": "Strahlenschutzgesetz",
+      "abbrev": "StrSchG"
+    },
+    {
+      "name": "Straßenverkehrsordnung 1960",
+      "abbrev": "StVO 1960"
+    },
+    {
+      "name": "Studentenheimgesetz",
+      "abbrev": "StudHG"
+    },
+    {
+      "name": "Studienförderungsgesetz 1992",
+      "abbrev": "StudFG"
+    },
+    {
+      "name": "Suchtmittelgesetz",
+      "abbrev": "SMG"
+    },
+    {
+      "name": "Tabak- und Nichtraucherinnen- bzw. Nichtraucherschutzgesetz",
+      "abbrev": "TNRSG"
+    },
+    {
+      "name": "Tabakmonopolgesetz 1996",
+      "abbrev": "TabMG 1996"
+    },
+    {
+      "name": "Tabaksteuergesetz",
+      "abbrev": "TabakStG"
+    },
+    {
+      "name": "Tabakwarenanmeldungsverordnung 2014",
+      "abbrev": "TWAV"
+    },
+    {
+      "name": "Teilpensionsgesetz",
+      "abbrev": "TPG"
+    },
+    {
+      "name": "Telekom-Bezügeverordnung 2013",
+      "abbrev": "T-BVo"
+    },
+    {
+      "name": "Telekom-Bezügeverordnung 2015",
+      "abbrev": "TBV 3015"
+    },
+    {
+      "name": "Theaterarbeitsgesetz",
+      "abbrev": "TAG"
+    },
+    {
+      "name": "Tiefgefrorene Lebensmittel",
+      "abbrev": "TGL"
+    },
+    {
+      "name": "Tierarzneimittelkontrollgesetz",
+      "abbrev": "TAKG"
+    },
+    {
+      "name": "Tierärztegesetz",
+      "abbrev": "TieraerzteG"
+    },
+    {
+      "name": "Tiergesundheitsgesetz",
+      "abbrev": "TGG"
+    },
+    {
+      "name": "Tiermaterialiengesetz",
+      "abbrev": "TMG"
+    },
+    {
+      "name": "Tierschutzgesetz",
+      "abbrev": "TSchG"
+    },
+    {
+      "name": "Tierseuchengesetz",
+      "abbrev": "TSG"
+    },
+    {
+      "name": "Tierversicherungsförderungsgesetz",
+      "abbrev": "TVFG"
+    },
+    {
+      "name": "Tierversuchsgesetz 2012",
+      "abbrev": "TVG 2012"
+    },
+    {
+      "name": "Tilgungsgesetz 1972",
+      "abbrev": "TilgG"
+    },
+    {
+      "name": "Todeserklärungsgesetz 1950",
+      "abbrev": "TEG"
+    },
+    {
+      "name": "Transparenzdatenbankgesetz 2012",
+      "abbrev": "TDBG 2012"
+    },
+    {
+      "name": "Truppenaufenthaltsgesetz",
+      "abbrev": "TrAufG"
+    },
+    {
+      "name": "Übereinkommen der Vereinten Nationen über Verträge über den internationalen Warenkauf",
+      "abbrev": "UN-K"
+    },
+    {
+      "name": "Übernahmegesetz",
+      "abbrev": "UEbG"
+    },
+    {
+      "name": "Umgründungssteuergesetz",
+      "abbrev": "UmgrStG"
+    },
+    {
+      "name": "Umsatzsteuergesetz 1994",
+      "abbrev": "UStG 1994"
+    },
+    {
+      "name": "Umsatzsteuergesetz 1994 - Anhang (Binnenmarkt)",
+      "abbrev": "UStG 1994 - Anhang"
+    },
+    {
+      "name": "Umwandlungsgesetz",
+      "abbrev": "UmwG"
+    },
+    {
+      "name": "Umweltfondsgesetz",
+      "abbrev": "UmwFG"
+    },
+    {
+      "name": "Umweltförderungsgesetz",
+      "abbrev": "UFG"
+    },
+    {
+      "name": "Umweltinformationsgesetz",
+      "abbrev": "UIG"
+    },
+    {
+      "name": "Umweltkontrollgesetz",
+      "abbrev": "UmweltKG"
+    },
+    {
+      "name": "Umweltverträglichkeitsprüfungsgesetz 2000",
+      "abbrev": "UVP-G 2000"
+    },
+    {
+      "name": "Unfalluntersuchungsgesetz",
+      "abbrev": "UnfUG"
+    },
+    {
+      "name": "Unterhaltsvorschußgesetz 1985",
+      "abbrev": "UVG"
+    },
+    {
+      "name": "Unternehmensgesetzbuch",
+      "abbrev": "UGB"
+    },
+    {
+      "name": "Unternehmensreorganisationsgesetz",
+      "abbrev": "URG"
+    },
+    {
+      "name": "Unterrichtspraktikumsgesetz",
+      "abbrev": "UPG"
+    },
+    {
+      "name": "Unvereinbarkeits- und Transparenz-Gesetz",
+      "abbrev": "Unv-Transparenz-G"
+    },
+    {
+      "name": "Urheberrechtsgesetz",
+      "abbrev": "UrhG"
+    },
+    {
+      "name": "Urkundenhinterlegungsgesetz",
+      "abbrev": "UHG"
+    },
+    {
+      "name": "Urlaubsgesetz",
+      "abbrev": "UrlaubsG"
+    },
+    {
+      "name": "Väter-Karenzgesetz",
+      "abbrev": "VKG"
+    },
+    {
+      "name": "Verbandsverantwortlichkeitsgesetz",
+      "abbrev": "VbVG"
+    },
+    {
+      "name": "Verbesserung der Nahversorgung und der Wettbewerbsbedingungen",
+      "abbrev": "NahVG"
+    },
+    {
+      "name": "Verbot von Anti-Personen-Minen",
+      "abbrev": "BVAPMG"
+    },
+    {
+      "name": "Verbotsgesetz 1947",
+      "abbrev": "VbtG"
+    },
+    {
+      "name": "Verbraucherbehörden-Kooperationsgesetz",
+      "abbrev": "VBKG"
+    },
+    {
+      "name": "Verbraucherkreditgesetz",
+      "abbrev": "VKrG"
+    },
+    {
+      "name": "Verfassungsgerichtshofgesetz 1953",
+      "abbrev": "VfGG"
+    },
+    {
+      "name": "Vergütungsverordnung gemäß § 61b Abs. 3 des Gehaltsgesetzes",
+      "abbrev": "VVGehG"
+    },
+    {
+      "name": "Verkehrsopfer-Entschädigungsgesetz",
+      "abbrev": "VOEG"
+    },
+    {
+      "name": "Verlustdatenmeldungs-Verordnung",
+      "abbrev": "VTDM-V"
+    },
+    {
+      "name": "Vermessungsgesetz",
+      "abbrev": "VermG"
+    },
+    {
+      "name": "Vermessungsverordnung 2010",
+      "abbrev": "VermV"
+    },
+    {
+      "name": "Verordnung Arbeitsinspektorate",
+      "abbrev": "AiatV"
+    },
+    {
+      "name": "Verordnung explosionsfähige Atmosphären",
+      "abbrev": "VEXAT"
+    },
+    {
+      "name": "Verordnung genehmigungsfreier Eisenbahn-Vorhaben",
+      "abbrev": "VgEV"
+    },
+    {
+      "name": "Verordnung Persönliche Schutzausrüstung",
+      "abbrev": "PSA-V"
+    },
+    {
+      "name": "Verordnung Persönliche Schutzausrüstung Bund",
+      "abbrev": "B-PSA-V"
+    },
+    {
+      "name": "Verordnung über brennbare Flüssigkeiten",
+      "abbrev": "VbF"
+    },
+    {
+      "name": "Versammlungsgesetz 1953",
+      "abbrev": "VersG"
+    },
+    {
+      "name": "Versicherungsaufsichtsgesetz 2016",
+      "abbrev": "VAG"
+    },
+    {
+      "name": "Versicherungsaufsichtsgesetz 2016",
+      "abbrev": "VAG 2016"
+    },
+    {
+      "name": "Versicherungssteuergesetz 1953",
+      "abbrev": "VersStG"
+    },
+    {
+      "name": "Versicherungsvertragsgesetz",
+      "abbrev": "VersVG"
+    },
+    {
+      "name": "Vertragsbedienstetengesetz 1948",
+      "abbrev": "VBG"
+    },
+    {
+      "name": "Verwahrungs- und Einziehungsgesetz",
+      "abbrev": "VerwEinzG"
+    },
+    {
+      "name": "Verwaltergesetz 1952",
+      "abbrev": "VwalG"
+    },
+    {
+      "name": "Verwaltungsgerichtshofgesetz 1985",
+      "abbrev": "VwGG"
+    },
+    {
+      "name": "Verwaltungsgerichtsverfahrensgesetz",
+      "abbrev": "VwGVG"
+    },
+    {
+      "name": "Verwaltungsstrafgesetz 1991",
+      "abbrev": "VStG"
+    },
+    {
+      "name": "Verwaltungsvollstreckungsgesetz 1991",
+      "abbrev": "VVG"
+    },
+    {
+      "name": "Verwertungsgesellschaftengesetz 2006",
+      "abbrev": "VerwGesG 2006"
+    },
+    {
+      "name": "Vieh-Meldeverordnung 2014",
+      "abbrev": "VM-VO"
+    },
+    {
+      "name": "VOC-Anlagen-Verordnung",
+      "abbrev": "VAV"
+    },
+    {
+      "name": "Volksabstimmungsgesetz 1972",
+      "abbrev": "VAbstG"
+    },
+    {
+      "name": "Volksanwaltschaftsgesetz 1982",
+      "abbrev": "VolksanwG"
+    },
+    {
+      "name": "Volksbefragungsgesetz 1989",
+      "abbrev": "VBefrG"
+    },
+    {
+      "name": "Volksbegehrengesetz 2018",
+      "abbrev": "VoBeG"
+    },
+    {
+      "name": "Volksgruppengesetz",
+      "abbrev": "VoGrG"
+    },
+    {
+      "name": "Vollzugsgebührengesetz",
+      "abbrev": "VGebG"
+    },
+    {
+      "name": "Vorgezogene Lenkberechtigung für die Klasse B",
+      "abbrev": "FSG-VBV"
+    },
+    {
+      "name": "Vorhabensverordnung",
+      "abbrev": "VoV"
+    },
+    {
+      "name": "Vornahme der gerichtlichen Totenbeschau",
+      "abbrev": "VgTb"
+    },
+    {
+      "name": "Wachebediensteten-Hilfeleistungsgesetz",
+      "abbrev": "WHG"
+    },
+    {
+      "name": "Waffengebrauchsgesetz 1969",
+      "abbrev": "WaffGebrG"
+    },
+    {
+      "name": "Waffengesetz 1996",
+      "abbrev": "WaffG"
+    },
+    {
+      "name": "Wählerevidenzgesetz 1973",
+      "abbrev": "WevG"
+    },
+    {
+      "name": "Wappengesetz",
+      "abbrev": "WapG"
+    },
+    {
+      "name": "Wärme- und Kälteleitungsausbaugesetz",
+      "abbrev": "WKLG"
+    },
+    {
+      "name": "Wasserbautenförderungsgesetz 1985",
+      "abbrev": "WBFG"
+    },
+    {
+      "name": "Wasserbuchverordnung",
+      "abbrev": "WBV"
+    },
+    {
+      "name": "Wasserrechtsgesetz 1959",
+      "abbrev": "WRG 1959"
+    },
+    {
+      "name": "Weingesetz 2009",
+      "abbrev": "Weingesetz 2009"
+    },
+    {
+      "name": "Weingesetz-Durchsetzungsverordnung",
+      "abbrev": "WDV"
+    },
+    {
+      "name": "Weingesetz 2009",
+      "abbrev": "WeinG"
+    },
+    {
+      "name": "Weltraumgesetz",
+      "abbrev": "WeltRaG"
+    },
+    {
+      "name": "Werbeabgabegesetz 2000",
+      "abbrev": "WerAG"
+    },
+    {
+      "name": "Wertpapieraufsichtsgesetz 2007",
+      "abbrev": "WAG 2007"
+    },
+    {
+      "name": "Wertpapierbereinigungsgesetz",
+      "abbrev": "WpbG"
+    },
+    {
+      "name": "Wettbewerbsgesetz",
+      "abbrev": "WettbG"
+    },
+    {
+      "name": "Winkelschreibereiverordnung",
+      "abbrev": "WinSV"
+    },
+    {
+      "name": "Wohnungseigentumsgesetz 2002",
+      "abbrev": "WEG 2002"
+    },
+    {
+      "name": "Wohnungsgemeinnützigkeitsgesetz",
+      "abbrev": "WGG"
+    },
+    {
+      "name": "WP-Anschaffungskosten-VO",
+      "abbrev": "WP-AnKO-VO"
+    },
+    {
+      "name": "Wuchergesetz 1949",
+      "abbrev": "WucherG"
+    },
+    {
+      "name": "Zahlungsbilanzstabilisierungsgesetz",
+      "abbrev": "ZaBiStaG"
+    },
+    {
+      "name": "Zahlungsdienstegesetz",
+      "abbrev": "ZaDiG"
+    },
+    {
+      "name": "Zentrale Gegenparteien-Vollzugsgesetz",
+      "abbrev": "ZGVG"
+    },
+    {
+      "name": "Zivildienst-Ausbildungs-Verordnung",
+      "abbrev": "ZiDAV"
+    },
+    {
+      "name": "Zivildienst-Kompetenzbilanz-Verordnung",
+      "abbrev": "ZKV"
+    },
+    {
+      "name": "Zivildienstgesetz 1986",
+      "abbrev": "ZDG"
+    },
+    {
+      "name": "Zivilluftfahrt-Statistikgesetz",
+      "abbrev": "ZLSG"
+    },
+    {
+      "name": "Zivilprozessordnung",
+      "abbrev": "ZPO"
+    },
+    {
+      "name": "Zivilprozessordnung - Einführungsgesetz",
+      "abbrev": "EGZPO"
+    },
+    {
+      "name": "Zivilrechts-Mediations-Gesetz",
+      "abbrev": "ZivMediatG"
+    },
+    {
+      "name": "Ziviltechnikergesetz 1993",
+      "abbrev": "ZTG"
+    },
+    {
+      "name": "Ziviltechnikergesetz 2019",
+      "abbrev": "ZTG 2019"
+    },
+    {
+      "name": "Ziviltechnikerkammergesetz 1993",
+      "abbrev": "ZTKG"
+    },
+    {
+      "name": "Zollrechts-Durchführungsgesetz",
+      "abbrev": "ZollR-DG"
+    },
+    {
+      "name": "Zugangskontrollgesetz",
+      "abbrev": "ZuKG"
+    },
+    {
+      "name": "Zukunftsfonds-Gesetz",
+      "abbrev": "ZuFG"
+    },
+    {
+      "name": "Zulassungsstellenverordnung",
+      "abbrev": "ZustV"
+    },
+    {
+      "name": "Zusatzstoff-Verordnung",
+      "abbrev": "ZuV"
+    },
+    {
+      "name": "Zustellgesetz",
+      "abbrev": "ZustG"
+    },
+    {
+      "name": "Zwischenzeitengesetz",
+      "abbrev": "ZZG"
+    }
+  ]
+}
