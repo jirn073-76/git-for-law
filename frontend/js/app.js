@@ -130,6 +130,13 @@ const App = {
       const to = document.getElementById('diff-to');
       if (from && to) {
         this._updateUrl(from.value, to.value);
+        document.querySelectorAll('.change-node.selected').forEach(el => el.classList.remove('selected'));
+        if (from.value) {
+          document.querySelector(`.change-node[data-date="${from.value}"]`)?.classList.add('selected');
+        }
+        if (to.value) {
+          document.querySelector(`.change-node[data-date="${to.value}"]`)?.classList.add('selected');
+        }
       }
       await this._doDiff();
       return;

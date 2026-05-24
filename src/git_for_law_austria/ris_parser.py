@@ -142,20 +142,22 @@ class RISParser:
                 if pending_prefix:
                     heading = f"{pending_prefix} — {heading}"
                     pending_prefix = ""
+
                 if not group_heading_applied:
                     group_heading_applied = True
                     pre_html = container_html[: gld_match.start()]
                     group_heading = self._extract_group_heading(pre_html)
-                    heading_is_par = heading.startswith("§")
                     if group_heading:
                         heading = f"{group_heading} — {heading}"
-                        if self._current_article and heading_is_par:
+                        if self._current_article and heading.startswith("§"):
                             group_has_art = re.search(
                                 r'Art(?:ikel)?\.?\s*[IVXLCDM\d]', group_heading, re.IGNORECASE
                             )
                             if not group_has_art:
                                 heading = f"{self._current_article} — {heading}"
-                    elif self._current_article and heading_is_par:
+
+                if self._current_article and heading.startswith("§"):
+                    if "Art" not in heading:
                         heading = f"{self._current_article} — {heading}"
 
                 art_m = re.match(
@@ -205,16 +207,29 @@ class RISParser:
         section_id = ""
         if heading:
             section_id = self._derive_section_id(heading)
+        erltext_title = ""
         if not section_id and body:
             section_id, erltext_title = self._extract_section_from_erltext(container_html)
         if not section_id and body:
             section_id = self._extract_section_from_body(body)
 
         if section_id:
+            # Prepend current article context for bare § sections
+            if self._current_article and section_id.startswith("§_"):
+                article_prefix = self._current_article.replace(" ", "_")
+                if article_prefix not in section_id:
+                    section_id = f"{article_prefix}_{section_id}"
             if heading and heading != "Text" and not self._is_section_heading(heading):
                 heading = f"{heading} — {section_id.replace('§_', '§ ').replace('Art_', 'Art. ').replace('Anlage_', 'Anlage ')}"
+            elif erltext_title:
+                if self._current_article and not re.search(r'Art(?:ikel)?\.?\s*[IVXLCDM\d]', erltext_title):
+                    heading = f"{self._current_article} — {erltext_title}"
+                else:
+                    heading = erltext_title
             elif not heading or heading == "Text":
                 heading = section_id.replace("§_", "§ ").replace("Art_", "Art. ").replace("Anlage_", "Anlage ")
+                if self._current_article and section_id.startswith("§_"):
+                    heading = f"{self._current_article} — {heading}"
         elif heading == "Text":
             heading = ""
 

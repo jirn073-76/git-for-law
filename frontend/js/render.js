@@ -208,6 +208,11 @@ const Render = {
         // Matching paragraph — show as context
         html += `<div class="diff-line diff-line-context">  ${Render.esc(oldA[oi])}</div>`;
         oi++; ni++; li++;
+      } else if (li < lcs.length && oi < oldA.length && ni < newA.length &&
+                 oldA[oi] !== lcs[li] && newA[ni] !== lcs[li]) {
+        // Both sides differ from next LCS element — modified pair, not independent add/delete
+        html += Render._wordDiffAbsatz(oldA[oi], newA[ni]);
+        oi++; ni++;
       } else if (li < lcs.length && oi < oldA.length && oldA[oi] !== lcs[li]) {
         html += `<div class="diff-line diff-line-del">- ${Render.esc(oldA[oi])}</div>`;
         oi++;
@@ -362,7 +367,7 @@ const Render = {
             <a href="https://creativecommons.org/licenses/by/4.0/deed.de" target="_blank" rel="noopener">Creative Commons Namensnennung 4.0 International (CC BY 4.0)</a>.
           </p>
           <p class="impressum-attribution">
-            Datenquelle: Bundesministerium für Finanzen — RIS/OGD · CC BY 4.0
+            Datenquelle: Bundeskanzleramt — RIS/OGD · CC BY 4.0
           </p>
           <p class="impressum-disclaimer">
             Aus der Verwendung der hier abgerufenen Informationen und Schnittstellen

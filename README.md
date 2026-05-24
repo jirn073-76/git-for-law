@@ -1,6 +1,6 @@
 # Git for Law — Austria
 
-Austrian federal law tracked in git. Every Fassung (version) of a Bundesgesetz is a commit. The pipeline fetches RIS HTML, parses it into structured sections, and commits the result — so you get meaningful diffs between any two points in time.
+Austrian federal law tracked in git. Every Fassung (version) of a Bundesgesetz is a commit. The pipeline fetches structured NOR XML from the RIS, parses it into versioned sections with body blocks, and commits the result — so you get meaningful diffs between any two points in time.
 
 It's a personal experiment at the intersection of law and version control. Built by [Dionis Ramadani](mailto:d.ramadani@ieee.org).
 
@@ -11,15 +11,17 @@ The Austrian government publishes federal law through the RIS (Rechtsinformation
 This pipeline:
 
 1. Pulls metadata from the OGD API v2.6 (`data.bka.gv.at`)
-2. Fetches the full HTML for each Fassung (RIS GeltendeFassung)
-3. Parses the HTML into structured JSON — sections, headings, paragraphs
+2. Fetches structured NOR XML for each Fassung (RIS Bundesnormen)
+3. Parses the XML into structured JSON — sections, headings, paragraphs, lists
 4. Commits each Fassung to a git repository under `data/laws/<Abbreviation>/`
+
+The NOR XML pipeline produces clean section IDs, proper heading/body separation, and structured `body_blocks` that preserve list formatting.
 
 The result: `git log` shows the amendment history. `git diff 2017-01-01..2018-01-01` shows what changed between two dates. Each commit message records the Fassung date and the amendment reference (Bundesgesetzblatt number).
 
 ## Data
 
-The data is Austrian federal law, fetched from the official OGD endpoint and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) by the Bundesministerium fur Finanzen. The dataset in this repo is frozen as of May 2026.
+The data is Austrian federal law, fetched from the official OGD endpoint and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) by the Federal Chancellory. The dataset in this repo is frozen as of May 2026.
 
 No warranty. No legal claims can be derived from this data.
 
@@ -32,17 +34,29 @@ pip install -e .
 ### Run the pipeline for a single law
 
 ```python
-from git_for_law_austria.pipeline import Pipeline
+from git_for_law_austria.nor_xml import NORCache, build_fassung
+import requests
 
-p = Pipeline()
-result = p.run(gsn="10001622")  # ABGB
-print(f"Processed {result.versions} versions, {result.sections} sections")
+session = requests.Session()
+session.headers.update({"User-Agent": "git-for-law/0.1"})
+cache = NORCache("data/nor_cache")
+fassung = build_fassung("10001622", "2026-01-01", cache, session)  # ABGB
+print(f"Built {len(fassung)} sections")
 ```
 
 ### Batch process all laws
 
 ```bash
-python scripts/batch_pipeline.py --input data/final_gsn_list.json --workers 4
+python scripts/nor_batch_pipeline.py --workers 7
+```
+
+The NOR pipeline is resumable — it checkpoints progress to `data/nor_checkpoint.json`.
+Re-run the same command to pick up where it left off.
+
+```bash
+python scripts/nor_batch_pipeline.py --only ABGB     # single law
+python scripts/nor_batch_pipeline.py --reset          # clear checkpoint, start fresh
+python scripts/nor_batch_pipeline.py --workers 5      # custom worker count
 ```
 
 ### Rebuild a specific law
@@ -69,6 +83,7 @@ python bff/server.py
 
 ```
 src/git_for_law_austria/   # Python package
+  nor_xml.py               #   NOR XML fetcher and parser
   fetcher.py               #   OGD API v2.6 metadata client
   ogd_content_fetcher.py   #   NOR content fetcher
   wayback_fetcher.py       #   Wayback Machine fallback fetcher
@@ -77,7 +92,7 @@ src/git_for_law_austria/   # Python package
   harness.py               #   Quality scoring (content, diffs, coverage)
   diff.py                  #   CLI diff viewer
 scripts/                   # Operational scripts
-  batch_pipeline.py        #   Main entry: process all laws in parallel
+  nor_batch_pipeline.py    #   Main entry: NOR XML batch processing (resumable)
   clean_rebuild.py         #   Selective rebuild of broken repos
   build_index.py           #   Build the master law index
   scan_all_gsns.py         #   Scan all GSNs from the catalog
@@ -89,7 +104,7 @@ scripts/                   # Operational scripts
   mass_backfill.py         #   Mass paragraph backfill
 bff/server.py              # FastAPI backend (serves the frontend + REST API)
 frontend/                  # Static web UI
-tests/                     # pytest suite (2818 tests)
+tests/                     # pytest suite (310 tests)
 data/                      # Config files and input data
   gsn_to_abbrev.json       #   Maps GSN numbers to abbreviations
   final_gsn_list.json      #   List of laws to process
@@ -98,17 +113,19 @@ data/                      # Config files and input data
   laws_index.json          #   Pre-built law index (used by the BFF)
 ```
 
-## How the parser works
+## How the NOR XML parser works
 
-RIS GeltendeFassung HTML has a consistent structure but isn't machine-readable in any useful way. The parser (`ris_parser.py`) handles several cases:
+The RIS publishes each legal provision as a NOR (Norm) XML document. The parser (`nor_xml.py`) handles:
 
-- **Standard paragraphs**: `§ 1. (1) Text...` — sections with numbered Absatze
-- **Articles**: `Artikel I § 1. (1) Text...` — compound article + paragraph structures
-- **Standalone articles**: `Artikel X.` with body text but no subsections (common in Schluss- und Ubergangsbestimmungen)
+- **Sections (§)**: Standard paragraphs — `§ 1.` through `§ N.`
+- **Articles (Art.)**: Compound structures — `Art. I § 1.`, standalone `Art. X.`
 - **Anlagen**: Annexes and appendices
-- **Old RIS format**: Pre-2015 RIS used a different markup with `Paragraph` labels
+- **Lists**: Ordered lists (`ziffernliste`), lettered lists (`literaliste`), Roman numeral lists (`aufzaehlung`), dash lists (`strichliste`)
+- **Nested structures**: Lists within lists, `schlussteil` closing elements
 
-Section IDs are normalized to a consistent scheme: `§_1`, `Art_I_§_2`, `Anlage_3`.
+Section IDs are derived from APA metadata, `gldsym` text, or heading/body patterns and normalized to: `§_1`, `Art_I_§_2`, `Anlage_3`.
+
+Each section stores `body_blocks` — a structured representation preserving list nesting — alongside the plain-text `body`.
 
 ## Dependencies
 
@@ -121,6 +138,6 @@ Section IDs are normalized to a consistent scheme: `§_1`, `Art_I_§_2`, `Anlage
 
 This project is licensed under the GNU Affero General Public License v3.0 — see [LICENSE](LICENSE).
 
-The legal data served by this software is from the Austrian RIS/OGD and is separately licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) by the Bundesministerium fur Finanzen.
+The legal data served by this software is from the Austrian RIS/OGD and is separately licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) by the Federal Chancellory (Bundeskanzleramt).
 
-Datenquelle: Bundesministerium fur Finanzen — RIS/OGD · CC BY 4.0
+Datenquelle: Bundeskanzleramt — RIS/OGD · CC BY 4.0

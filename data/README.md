@@ -9,4 +9,4 @@ Files in this directory are configuration and input data for the pipeline.
 All data originates from the Austrian OGD API v2.6:
 https://data.bka.gv.at/ris/api/v2.6/Bundesrecht
 
-Licensed under CC BY 4.0 by the Bundesministerium fur Finanzen.
+Licensed under CC BY 4.0 by the Federal Chancellory (Bundeskanzleramt).

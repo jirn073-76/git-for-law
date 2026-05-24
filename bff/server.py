@@ -585,7 +585,7 @@ def get_sections(abbrev: str, date: str = Query(...)):
         sections.append({
             "section_id": sec.get("section_id", sid),
             "heading": _display_heading(sid, sec.get("heading", "")),
-            "body": sec.get("body", ""),
+            "body": _strip_section_prefix(sec.get("body", "")),
             "section_type": sec.get("section_type", ""),
         })
     return sections
@@ -602,10 +602,24 @@ def _heading_is_bad(heading: str) -> bool:
 
 
 def _display_heading(section_id: str, heading: str) -> str:
-    """Return a clean display heading, falling back to section_id if heading is annotation/empty."""
+    """Return a clean display heading with section prefix, falling back to section_id if heading is annotation/empty."""
+    prefix = _section_id_to_display(section_id, "")
     if heading and not _heading_is_bad(heading):
-        return heading
-    return _section_id_to_display(section_id, heading)
+        if heading.lstrip().startswith(prefix.rstrip(".")):
+            return heading
+        return f"{prefix} {heading}"
+    return prefix
+
+
+def _strip_section_prefix(body: str) -> str:
+    """Remove leading § N. or Art. N § M. from body — heading already shows the identifier."""
+    m = re.match(r'^(?:Art(?:ikel)?\.?\s*(?:[IVXLCDM]+|\d+)\s*)?§\s*\d+[a-z]?\.\s+', body)
+    if m:
+        return body[m.end():]
+    m = re.match(r'^Art(?:ikel)?\.?\s*[IVXLCDM]+\s+', body)
+    if m:
+        return body[m.end():]
+    return body
 
 
 def _section_id_to_display(section_id: str, fallback: str = "") -> str:
@@ -683,8 +697,8 @@ def diff_versions(
                     sid,
                     new_sec.get("heading") or old_sec.get("heading") or ""
                 ),
-                "old_body": old_body or None,
-                "new_body": new_body or None,
+                "old_body": _strip_section_prefix(old_body) if old_body else None,
+                "new_body": _strip_section_prefix(new_body) if new_body else None,
             })
         else:
             unchanged.append({
