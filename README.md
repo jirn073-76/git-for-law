@@ -84,27 +84,20 @@ python bff/server.py
 ```
 src/git_for_law_austria/   # Python package
   nor_xml.py               #   NOR XML fetcher and parser
-  fetcher.py               #   OGD API v2.6 metadata client
-  ogd_content_fetcher.py   #   NOR content fetcher
-  wayback_fetcher.py       #   Wayback Machine fallback fetcher
-  ris_parser.py            #   RIS HTML → structured sections parser
-  pipeline.py              #   Full pipeline orchestrator
-  harness.py               #   Quality scoring (content, diffs, coverage)
   diff.py                  #   CLI diff viewer
 scripts/                   # Operational scripts
   nor_batch_pipeline.py    #   Main entry: NOR XML batch processing (resumable)
-  clean_rebuild.py         #   Selective rebuild of broken repos
   build_index.py           #   Build the master law index
   scan_all_gsns.py         #   Scan all GSNs from the catalog
   match_law_index.py       #   Match scanned GSNs against the index
   disambiguate_and_finalize.py  #   Finalize the GSN list
   verify_all_laws.py       #   Verify all processed laws
   qa_checker.py            #   Quality checks
-  comprehensive_audit.py   #   Full RIS-backed audit
-  mass_backfill.py         #   Mass paragraph backfill
 bff/server.py              # FastAPI backend (serves the frontend + REST API)
 frontend/                  # Static web UI
-tests/                     # pytest suite (310 tests)
+tests/                     # pytest suite
+  test_diff.py             #   CLI diff viewer tests
+  test_data_quality.py     #   Data quality checks on law repos
 data/                      # Config files and input data
   gsn_to_abbrev.json       #   Maps GSN numbers to abbreviations
   final_gsn_list.json      #   List of laws to process
