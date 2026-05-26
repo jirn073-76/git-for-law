@@ -21,7 +21,7 @@ The result: `git log` shows the amendment history. `git diff 2017-01-01..2018-01
 
 ## Data
 
-The data is Austrian federal law, fetched from the official OGD endpoint and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) by the Federal Chancellory. The dataset in this repo is frozen as of May 2026.
+The data is Austrian federal law, fetched from the official OGD endpoint and licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) by the Federal Chancellory.
 
 No warranty. No legal claims can be derived from this data.
 
