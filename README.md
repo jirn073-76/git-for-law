@@ -63,12 +63,6 @@ python scripts/nor_batch_pipeline.py --reset          # clear checkpoint, start 
 python scripts/nor_batch_pipeline.py --workers 5      # custom worker count
 ```
 
-### Rebuild a specific law
-
-```bash
-python scripts/clean_rebuild.py --only ABGB --skip-delete
-```
-
 ### Diff two versions from the command line
 
 ```bash
@@ -87,7 +81,7 @@ python bff/server.py
 
 ```
 src/git_for_law_austria/   # Python package
-  nor_xml.py               #   NOR XML fetcher and parser
+  nor_xml.py               #   OGD API → NOR XML → structured sections (cache, parse, build)
   diff.py                  #   CLI diff viewer
 scripts/                   # Operational scripts
   nor_batch_pipeline.py    #   Main entry: NOR XML batch processing (resumable)
