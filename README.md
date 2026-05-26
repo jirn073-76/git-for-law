@@ -4,6 +4,10 @@ Austrian federal law tracked in git. Every Fassung (version) of a Bundesgesetz i
 
 It's a personal experiment at the intersection of law and version control. Built by [Dionis Ramadani](mailto:d.ramadani@ieee.org).
 
+## Demo: git-for-law.at
+
+A demo is hosted on https://git-for-law.at.
+
 ## What this actually does
 
 The Austrian government publishes federal law through the RIS (Rechtsinformationssystem des Bundes). Each law exists in multiple Fassungen - versions that were in force at different dates. RIS lets you view a single Fassung as HTML. It doesn't give you diffs.
