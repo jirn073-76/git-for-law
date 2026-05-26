@@ -1,18 +1,18 @@
-# Git for Law — Austria
+# Git for Law - Austria
 
-Austrian federal law tracked in git. Every Fassung (version) of a Bundesgesetz is a commit. The pipeline fetches structured NOR XML from the RIS, parses it into versioned sections with body blocks, and commits the result — so you get meaningful diffs between any two points in time.
+Austrian federal law tracked in git. Every Fassung (version) of a Bundesgesetz is a commit. The pipeline fetches structured NOR XML from the RIS, parses it into versioned sections with body blocks, and commits the result - so you get meaningful diffs between any two points in time.
 
 It's a personal experiment at the intersection of law and version control. Built by [Dionis Ramadani](mailto:d.ramadani@ieee.org).
 
 ## What this actually does
 
-The Austrian government publishes federal law through the RIS (Rechtsinformationssystem des Bundes). Each law exists in multiple Fassungen — versions that were in force at different dates. RIS lets you view a single Fassung as HTML. It doesn't give you diffs.
+The Austrian government publishes federal law through the RIS (Rechtsinformationssystem des Bundes). Each law exists in multiple Fassungen - versions that were in force at different dates. RIS lets you view a single Fassung as HTML. It doesn't give you diffs.
 
 This pipeline:
 
 1. Pulls metadata from the OGD API v2.6 (`data.bka.gv.at`)
 2. Fetches structured NOR XML for each Fassung (RIS Bundesnormen)
-3. Parses the XML into structured JSON — sections, headings, paragraphs, lists
+3. Parses the XML into structured JSON - sections, headings, paragraphs, lists
 4. Commits each Fassung to a git repository under `data/laws/<Abbreviation>/`
 
 The NOR XML pipeline produces clean section IDs, proper heading/body separation, and structured `body_blocks` that preserve list formatting.
@@ -50,7 +50,7 @@ print(f"Built {len(fassung)} sections")
 python scripts/nor_batch_pipeline.py --workers 7
 ```
 
-The NOR pipeline is resumable — it checkpoints progress to `data/nor_checkpoint.json`.
+The NOR pipeline is resumable - it checkpoints progress to `data/nor_checkpoint.json`.
 Re-run the same command to pick up where it left off.
 
 ```bash
@@ -117,27 +117,27 @@ data/                      # Config files and input data
 
 The RIS publishes each legal provision as a NOR (Norm) XML document. The parser (`nor_xml.py`) handles:
 
-- **Sections (§)**: Standard paragraphs — `§ 1.` through `§ N.`
-- **Articles (Art.)**: Compound structures — `Art. I § 1.`, standalone `Art. X.`
+- **Sections (§)**: Standard paragraphs - `§ 1.` through `§ N.`
+- **Articles (Art.)**: Compound structures - `Art. I § 1.`, standalone `Art. X.`
 - **Anlagen**: Annexes and appendices
 - **Lists**: Ordered lists (`ziffernliste`), lettered lists (`literaliste`), Roman numeral lists (`aufzaehlung`), dash lists (`strichliste`)
 - **Nested structures**: Lists within lists, `schlussteil` closing elements
 
 Section IDs are derived from APA metadata, `gldsym` text, or heading/body patterns and normalized to: `§_1`, `Art_I_§_2`, `Anlage_3`.
 
-Each section stores `body_blocks` — a structured representation preserving list nesting — alongside the plain-text `body`.
+Each section stores `body_blocks` - a structured representation preserving list nesting - alongside the plain-text `body`.
 
 ## Dependencies
 
 - Python >= 3.10
-- `requests` — HTTP client for OGD API and RIS
-- `gitpython` — git repository management
-- Optional: `fastapi`, `uvicorn` — for the web UI
+- `requests` - HTTP client for OGD API and RIS
+- `gitpython` - git repository management
+- Optional: `fastapi`, `uvicorn` - for the web UI
 
 ## License
 
-This project is licensed under the GNU Affero General Public License v3.0 — see [LICENSE](LICENSE).
+This project is licensed under the GNU Affero General Public License v3.0 - see [LICENSE](LICENSE).
 
 The legal data served by this software is from the Austrian RIS/OGD and is separately licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.de) by the Federal Chancellory (Bundeskanzleramt).
 
-Datenquelle: Bundeskanzleramt — RIS/OGD · CC BY 4.0
+Datenquelle: Bundeskanzleramt - RIS/OGD · CC BY 4.0
